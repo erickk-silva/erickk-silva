@@ -1,5 +1,5 @@
 # 💫 About Me:
-📚Estudante na ETEC LAURO GOMES<br>👨‍💻Cursando Desenvolvimento de Sistemas (2/3)<br>🔥Gosto de c#, T-SQL e JS
+📚Estudante na UFABC<br>👨‍💻Cursando Ciência e Tecnologia (2/3)<br>🔥IoT, MachineLearning, MySQL, HelpDesk
 
 
 ## 🌐 Socials:
