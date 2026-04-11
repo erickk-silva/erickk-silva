@@ -1,5 +1,5 @@
 # 💫 About Me:
-📚Estudante na UFABC<br>👨‍💻Cursando Ciência e Tecnologia (2/3)<br>🔥IoT, MachineLearning, MySQL, HelpDesk
+📚Estudante na UFABC<br>👨‍💻Cursando Ciência e Tecnologia <br>🔥IoT, MachineLearning, MySQL, HelpDesk
 
 
 ## 🌐 Socials:
