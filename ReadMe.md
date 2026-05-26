@@ -1,5 +1,5 @@
 # 💫 About Me:
-📚Estudante na UFABC<br>👨‍💻Cursando Ciência e Tecnologia <br>🔥IoT, MachineLearning, MySQL, HelpDesk
+📚Science & Technology on UFABC<br>👨‍💻FullStack Developer<br>💡IoT, DevOps, MachineLearning, Web and DataScience
 
 
 ## 🌐 Socials:
