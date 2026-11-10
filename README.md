@@ -8,7 +8,7 @@
 
 ### Hey, I'm Erick. I build things with purpose.
 
-I'm a **full-stack developer** studying **Science & Technology at UFABC**, with interests spanning product engineering, systems, automation, applied AI and embedded technology. I enjoy going beyond implementation: understanding the problem, making sound technical decisions and validating what gets shipped.
+I'm a **full-stack developer** studying **Science & Technology at UFABC**, building software across web platforms, backend systems and mobile. My projects also connect software with **IoT and applied computer vision**. I enjoy going beyond implementation: understanding the problem, making sound technical decisions and validating what gets shipped.
 
 <p align="center">
   <img src="./assets/principles.svg" alt="My approach: architecture first, build with intent, measure what ships." width="100%">
@@ -30,15 +30,26 @@ Projects are the best way to explain the kind of engineering I care about. Here 
 
 **InScreenLock** — An Android-first, offline-first app for intentional screen time. Built around explicit permissions, local privacy, automated tests and documented architectural decisions. [**Source code ↗**](https://github.com/erickk-silva/InScreenLock) · [**Product website ↗**](https://erickk-silva.github.io/InScreenLock/)
 
+<img src="./assets/seeme.svg" alt="SeeMe — collaborative computer-vision accessibility project involving Python, gesture recognition and CNN training experiments." width="100%">
+
+**SeeMe** — A collaborative accessibility project exploring camera-based interaction and recognition of static LIBRAS gestures. I contributed to **CNN model-training experiments**, computer-vision feature integration, and product research. My experience with model fine-tuning is **introductory and hands-on**, not advanced ML specialization. *Collaborative project; source repository is private.*
+
 ## How I build
 
 **Think in systems. Build for people. Validate with evidence.** I care about clear boundaries, maintainable architecture, pragmatic automation, and an interface that makes the complexity underneath feel simple. Whether a feature touches an API, an Android service or an embedded device, the goal stays the same: reliable behavior and a thoughtful user experience.
 
 ## Engineering toolkit
 
-<img src="./assets/toolkit.svg" alt="Selected technologies across web, mobile, backend, data and systems engineering." width="100%">
+<img src="./assets/toolkit.svg" alt="Engineering toolkit: Web and mobile, backend and data, applied AI and computer vision, systems and quality. Tools are grouped by experience context." width="100%">
 
-**Product & mobile:** React, React Native, TypeScript, Kotlin, Jetpack Compose. **Backend & data:** PHP, Laravel, MySQL, Microsoft SQL Server, APIs. **Systems:** Docker, ESP32, GitHub Actions, AI-assisted development workflows.
+| Focus | Technologies |
+| :--- | :--- |
+| **Web & mobile** | TypeScript · React · Inertia.js · React Native · Next.js · Kotlin · Jetpack Compose |
+| **Backend & data** | PHP · Laravel · Node.js · NestJS · Microsoft SQL Server · MySQL · Redis |
+| **Applied AI & computer vision** | Python · OpenCV · MediaPipe · TensorFlow · CNN training experiments · basic fine-tuning |
+| **Systems & quality** | Docker · Linux/WSL · GitHub Actions · PHPUnit · Jest · ESP32 / C++ |
+
+<sub>These span professional engineering work, personal builds, and collaborative projects. CNN training and model fine-tuning reflect project-based foundational experience, not specialized ML research.</sub>
 
 ## Contribution activity
 
