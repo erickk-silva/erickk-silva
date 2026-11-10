@@ -1,5 +1,10 @@
 <p align="center">
-  <img src="./assets/hero.svg" alt="Erick Silva — Building systems. Engineering impact. Animated dark editorial identity in purple, electric blue and lime." width="100%">
+  <picture>
+    <source media="(max-width: 640px) and (prefers-reduced-motion: reduce)" srcset="./assets/hero-mobile-static.svg">
+    <source media="(prefers-reduced-motion: reduce)" srcset="./assets/hero-static.svg">
+    <source media="(max-width: 640px)" srcset="./assets/hero-mobile.svg">
+    <img src="./assets/hero.svg" alt="Erick Silva — Software Engineering, Systems and Applied AI, with an animated floating processor in electric blue, violet and lime." width="100%">
+  </picture>
 </p>
 
 <p align="center">

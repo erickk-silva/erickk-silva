@@ -1,103 +1,193 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="474" viewBox="0 0 1200 474" role="img" aria-label="Erick Silva — Building systems. Engineering impact.">
-<title>Erick Silva — Building systems. Engineering impact.</title><desc>Dark editorial developer identity with an animated purple, blue and lime isometric orbital system illustration.</desc><defs>
-  <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#080A15"/>
-    <stop offset=".56" stop-color="#0C1022"/>
-    <stop offset="1" stop-color="#070B16"/>
-  </linearGradient>
-  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-    <stop offset="0" stop-color="#B088FF"/>
-    <stop offset=".43" stop-color="#668BFF"/>
-    <stop offset=".72" stop-color="#53BCFF"/>
-    <stop offset="1" stop-color="#BEFF65"/>
-  </linearGradient>
-  <linearGradient id="aqua" x1="0" y1="1" x2="1" y2="0">
-    <stop offset="0" stop-color="#4359FF"/>
-    <stop offset=".58" stop-color="#4AB6FF"/>
-    <stop offset="1" stop-color="#A8FBD6"/>
-  </linearGradient>
-  <linearGradient id="lime" x1="0" y1="1" x2="1" y2="0">
-    <stop offset="0" stop-color="#46CDB7"/>
-    <stop offset=".55" stop-color="#A2F975"/>
-    <stop offset="1" stop-color="#D1FF72"/>
-  </linearGradient>
-  <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1">
-    <stop offset="0" stop-color="#A780FF"/>
-    <stop offset=".55" stop-color="#6E7FFF"/>
-    <stop offset="1" stop-color="#469DFF"/>
-  </linearGradient>
-  <radialGradient id="purpleGlow"><stop stop-color="#7340D9" stop-opacity=".48"/><stop offset="1" stop-color="#7340D9" stop-opacity="0"/></radialGradient>
-  <radialGradient id="blueGlow"><stop stop-color="#2D7CFE" stop-opacity=".30"/><stop offset="1" stop-color="#2D7CFE" stop-opacity="0"/></radialGradient>
-  <radialGradient id="limeGlow"><stop stop-color="#9FE66D" stop-opacity=".22"/><stop offset="1" stop-color="#9FE66D" stop-opacity="0"/></radialGradient>
-  <pattern id="mesh" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#29334C" stroke-opacity=".4" stroke-width=".8"/></pattern>
-  <pattern id="micro" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".55" fill="#7992C9" fill-opacity=".24"/></pattern>
-</defs><style>
-  text{font-family:Inter,'Inter Display','Segoe UI',Arial,sans-serif}
-  .mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace}
-  .orbit{transform-origin:975px 232px;animation:spin 28s linear infinite}
-  .orbit-reverse{transform-origin:975px 232px;animation:spin 36s linear infinite reverse}
-  .float{animation:float 5s ease-in-out infinite}
-  .float-delay{animation:float 7s ease-in-out infinite reverse}
-  .pulse{animation:pulse 3.4s ease-in-out infinite}
-  .pulse-delay{animation:pulse 5s ease-in-out infinite reverse}
-  .flow{stroke-dasharray:10 11;animation:dash 5s linear infinite}
-  .scan{animation:scan 7s ease-in-out infinite}
-  .wave{animation:wave 6s ease-in-out infinite}
-  .fade-in{animation:fadein .9s ease-out both}
-  @keyframes spin {to{transform:rotate(360deg)}}
-  @keyframes float{0%,100%{transform:translateY(0px)}50%{transform:translateY(-9px)}}
-  @keyframes pulse{0%,100%{opacity:.48}50%{opacity:1}}
-  @keyframes dash{to{stroke-dashoffset:-126}}
-  @keyframes scan{0%,100%{transform:translateX(0px);opacity:.4}50%{transform:translateX(160px);opacity:.8}}
-  @keyframes wave{0%,100%{opacity:.46}50%{opacity:.95}}
-  @keyframes fadein{0%{opacity:0}100%{opacity:1}}
-  @media (prefers-reduced-motion:reduce){.orbit,.orbit-reverse,.float,.float-delay,.pulse,.pulse-delay,.flow,.scan,.wave,.fade-in{animation:none!important}}
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="540" viewBox="0 0 1600 540" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="title desc">
+<title id="title">Erick Silva — Software Engineering, Systems and Applied AI</title>
+<desc id="desc">Cinematic dark violet developer hero with electric blue and lime light streams. On the right, a three-dimensional solid-color floating chip stack rises and falls with animated glowing edges and shadows. Motion stops when reduced motion is preferred.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#100421"/><stop offset=".49" stop-color="#07071D"/><stop offset="1" stop-color="#020D23"/></linearGradient>
+  <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#B72CFF"/><stop offset=".27" stop-color="#4D72FF"/><stop offset=".65" stop-color="#00C9FF"/><stop offset="1" stop-color="#9CFF29"/></linearGradient>
+  <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7D21FF"/><stop offset=".48" stop-color="#00BFFF"/><stop offset=".77" stop-color="#8C27FF"/><stop offset="1" stop-color="#008BFF"/></linearGradient>
+  <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#B1FF28"/><stop offset=".45" stop-color="#00E4FF"/><stop offset=".85" stop-color="#2363FF"/><stop offset="1" stop-color="#2363FF" stop-opacity="0"/></linearGradient>
+  <linearGradient id="topplate" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#102C46"/><stop offset=".33" stop-color="#062439"/><stop offset=".74" stop-color="#111544"/><stop offset="1" stop-color="#221158"/></linearGradient>
+  <linearGradient id="midplate" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#041E42"/><stop offset=".6" stop-color="#122251"/><stop offset="1" stop-color="#230E4E"/></linearGradient>
+  <linearGradient id="bottomplate" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0C1A42"/><stop offset=".48" stop-color="#041C3B"/><stop offset="1" stop-color="#170C44"/></linearGradient>
+  <linearGradient id="toprim" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9EFF0B"/><stop offset=".21" stop-color="#4AFF86"/><stop offset=".5" stop-color="#00EFFF"/><stop offset=".78" stop-color="#368AFF"/><stop offset="1" stop-color="#8B30FF"/></linearGradient>
+  <linearGradient id="midrim" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00C4FF"/><stop offset=".52" stop-color="#15EAFF"/><stop offset="1" stop-color="#9B29FF"/></linearGradient>
+  <linearGradient id="bottomrim" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#1C65FF"/><stop offset=".54" stop-color="#00CFFF"/><stop offset="1" stop-color="#682DFF"/></linearGradient>
+  <radialGradient id="aurora"><stop stop-color="#3B13C6" stop-opacity=".49"/><stop offset=".45" stop-color="#18095D" stop-opacity=".24"/><stop offset="1" stop-color="#0A0A38" stop-opacity="0"/></radialGradient>
+  <radialGradient id="cyanHalo"><stop stop-color="#00D3FF" stop-opacity=".27"/><stop offset=".52" stop-color="#0066FF" stop-opacity=".11"/><stop offset="1" stop-color="#0066FF" stop-opacity="0"/></radialGradient>
+  <radialGradient id="limeHalo"><stop stop-color="#AFFF34" stop-opacity=".35"/><stop offset="1" stop-color="#AFFF34" stop-opacity="0"/></radialGradient>
+  <pattern id="micro" x="0" y="0" width="21" height="21" patternUnits="userSpaceOnUse"><path d="M21 0H0V21" stroke="#2565CB" stroke-width=".65" stroke-opacity=".18" fill="none"/></pattern>
+  <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><rect x="0" y="0" width="3.3" height="3.3" fill="#4490FF" opacity=".45"/></pattern>
+  <pattern id="chipDots" x="0" y="0" width="19" height="16" patternUnits="userSpaceOnUse"><circle cx="6" cy="6" r="1.75" fill="#00D8FF" opacity=".65"/></pattern>
+  <filter id="shadow" x="-60%" y="-70%" width="220%" height="260%"><feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#02020C" flood-opacity=".95"/><feDropShadow dx="0" dy="7" stdDeviation="10" flood-color="#1244D9" flood-opacity=".32"/></filter>
+  <filter id="neon" x="-100%" y="-150%" width="300%" height="400%"><feGaussianBlur stdDeviation="6"/></filter>
+  <filter id="wideGlow" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="16"/></filter>
+  <filter id="hotGlow" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="8"/></filter>
+  <clipPath id="viewport"><rect x="0" y="0" width="1600" height="540" rx="13"/></clipPath>
+  <clipPath id="chipTopClip"><path d="M1043 186L1207 96Q1220 89 1236 97L1420 187Q1437 198 1420 208L1255 304Q1239 313 1224 304L1045 208Q1028 199 1043 186Z"/></clipPath>
+</defs>
+<style>
+  text{font-family:Inter,'Arial',system-ui,sans-serif}
+  .mono{font-family:'SFMono-Regular','Consolas',monospace}
+  .stack{animation:floatStack 6.8s cubic-bezier(.45,0,.55,1) infinite;transform-origin:1232px 245px}
+  .topFloat{animation:floatTop 6.8s cubic-bezier(.45,0,.55,1) infinite;transform-origin:1232px 245px}
+  .lightRun{stroke-dasharray:34 160;animation:stream 5.8s linear infinite}
+  .haloRotate{animation:haloSpin 36s linear infinite;transform-origin:1255px 251px}
+  .shadowBreath{animation:shadowPulse 6.8s ease-in-out infinite;transform-origin:1240px 385px}
+  .iconPulse{animation:iconPulse 4.7s ease-in-out infinite}
+  .scan{animation:scan 4.8s ease-in-out infinite}
+  .dotsPulse{animation:dotPulse 4s ease-in-out infinite}
+  .waveShimmer{stroke-dasharray:220 1000;animation:stream 22s linear infinite}
+  .panelFloat{animation:panelFloat 8s ease-in-out infinite}
+  @keyframes floatStack{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+  @keyframes floatTop{0%,100%{transform:translateY(0)}50%{transform:translateY(-20px)}}
+  @keyframes stream{to{stroke-dashoffset:-1200}}
+  @keyframes haloSpin{to{transform:rotate(360deg)}}
+  @keyframes shadowPulse{0%,100%{transform:scale(1);opacity:.88}50%{transform:scale(.86);opacity:.56}}
+  @keyframes iconPulse{0%,100%{opacity:.82}50%{opacity:1}}
+  @keyframes scan{0%,100%{opacity:.38;transform:translateY(0)}50%{opacity:.82;transform:translateY(26px)}}
+  @keyframes dotPulse{0%,100%{opacity:.35}50%{opacity:.8}}
+  @keyframes panelFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+  @media(prefers-reduced-motion:reduce){.stack,.topFloat,.lightRun,.haloRotate,.shadowBreath,.iconPulse,.scan,.dotsPulse,.waveShimmer,.panelFloat{animation:none!important}}
 </style>
-<rect x="1" y="1" width="1198" height="472" rx="25" fill="url(#background)" stroke="#29314B" stroke-width="1.4"/>
+<g clip-path="url(#viewport)">
+  <rect width="1600" height="540" fill="url(#bg)"/>
+  <ellipse cx="180" cy="30" rx="500" ry="390" fill="url(#aurora)"/>
+  <ellipse cx="1118" cy="365" rx="660" ry="350" fill="url(#cyanHalo)" opacity=".9"/>
+  <ellipse cx="1320" cy="390" rx="280" ry="170" fill="url(#limeHalo)" opacity=".5"/>
+  <!-- the page-edge chromatic lens and low-left signal waves -->
+  <path d="M95 -60C-80 120-60 345 137 421C322 498 425 517 540 530" fill="none" stroke="#6735FF" stroke-width="42" opacity=".20" filter="url(#wideGlow)"/>
+  <path d="M116 -60C-80 158-59 367 144 430C333 498 428 515 549 533" fill="none" stroke="#01D5FF" stroke-width="5" opacity=".9" filter="url(#neon)"/>
+  <path d="M116 -60C-80 158-59 367 144 430C333 498 428 515 549 533" fill="none" stroke="url(#sweep)" stroke-width="2.7" opacity=".95"/>
+  <path d="M125 -60C-24 103-20 289 60 354" fill="none" stroke="#AE52FF" stroke-width="1.5" opacity=".52"/>
+  <rect x="165" y="27" width="182" height="62" fill="url(#dots)" opacity=".7"/>
 
-<circle cx="1028" cy="217" r="312" fill="url(#purpleGlow)"/><circle cx="1090" cy="364" r="240" fill="url(#blueGlow)"/>
-<path d="M735 0 H1200 V474 H785" fill="url(#mesh)" opacity=".57"/>
-<path d="M50 108 H1150" stroke="#2B344B" stroke-width="1"/>
-<path d="M50 426 H1150" stroke="#2B344B" stroke-width="1"/>
-<rect x="49" y="34" width="49" height="48" rx="13" fill="#18203A" stroke="#8A80FE" stroke-opacity=".5"/>
-<path d="M63 60h11l-5 8h17" fill="none" stroke="#BEFF65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M81 49h-13" stroke="#A88BFF" stroke-width="3" stroke-linecap="round"/>
-<text x="113" y="53" font-size="18" fill="#F3F6FF" letter-spacing="2.1" font-weight="800">ERICK SILVA</text>
-<text x="113" y="73" class="mono" font-size="11" fill="#94A4C5" letter-spacing="1.6">SOFTWARE DEVELOPER</text>
-<circle cx="968" cy="56" r="5" fill="#C5FF73" class="pulse"/>
-<text x="985" y="60" font-size="12" fill="#C8D2E6" letter-spacing="1.7" font-weight="600">BUILDING WHAT MATTERS</text>
-<rect x="51" y="144" width="70" height="4" rx="2" fill="url(#accent)"/>
-<text x="49" y="231" font-size="67" font-weight="760" letter-spacing="-2.9" fill="#F5F7FF">Building systems.</text>
-<text x="49" y="311" font-size="67" font-weight="790" letter-spacing="-3.4" fill="url(#accent)">Engineering impact.</text>
-<text x="51" y="351" font-size="17.7" fill="#A7B4D0">Full-stack engineering, applied AI and purposeful product experiences.</text>
-<rect x="51" y="373" width="152" height="33" rx="16.5" fill="#1A1B36" stroke="#705ED1" stroke-opacity=".5"/>
-<circle cx="68" cy="390" r="4" fill="#B991FF"/>
-<text x="81" y="394" font-size="12.5" font-weight="650" fill="#D8D2FC">UFABC / BRAZIL</text>
-<rect x="215" y="373" width="164" height="33" rx="16.5" fill="#142B2B" stroke="#7FE6A5" stroke-opacity=".34"/>
-<path d="M233 388l4 4 8-9" fill="none" stroke="#BDFF7B" stroke-width="2" stroke-linecap="round"/>
-<text x="251" y="394" font-size="12.5" font-weight="650" fill="#BFFF92">PRODUCT MINDSET</text>
-<text x="51" y="453" class="mono" font-size="11" fill="#7F90B0" letter-spacing="1">TYPE / CODE / OBSERVE / IMPROVE</text>
-<text x="1149" y="453" class="mono" font-size="11" fill="#B8FF74" text-anchor="end" letter-spacing="1.4">PORTFOLIO / 001</text>
-<!-- precision-orbit motif -->
-<g opacity=".92">
-  <circle cx="972" cy="238" r="139" fill="none" stroke="#7954C3" stroke-opacity=".33" stroke-width="1.4"/>
-  <circle cx="972" cy="238" r="113" fill="none" stroke="#669CF8" stroke-opacity=".42" stroke-width="1.3" stroke-dasharray="3 8"/>
-  <circle cx="972" cy="238" r="78" fill="none" stroke="#9D93FE" stroke-opacity=".37" stroke-width="1"/>
-  <path d="M833 238H1111M972 99V377" stroke="#8193BF" stroke-opacity=".19" stroke-dasharray="3 9"/>
-  <circle cx="972" cy="238" r="165" fill="none" stroke="#74A7FA" stroke-opacity=".15" stroke-width="1"/>
-</g>
-<g class="orbit"><path d="M834 238A138 138 0 0 1 1087 161" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/><circle cx="834" cy="238" r="5.5" fill="#B9FF74"/><circle cx="1087" cy="161" r="4.5" fill="#8F7CFF"/></g>
-<g class="orbit-reverse"><path d="M972 125A113 113 0 0 1 1084 233" fill="none" stroke="#74BBFF" stroke-width="2.4" stroke-linecap="round"/><circle cx="972" cy="125" r="4.3" fill="#B7FF6D"/></g>
-<g class="float">
-  <path d="M974 150L1060 199V284L974 333L888 284V199Z" fill="#171A36" fill-opacity=".8" stroke="url(#purple)" stroke-width="2.2"/>
-  <path d="M974 150V237L888 284M974 237L1060 284M974 237V333M888 199L974 237L1060 199" fill="none" stroke="url(#accent)" stroke-opacity=".84" stroke-width="2"/>
-  <path d="M974 185L1028 216V267L974 298L920 267V216Z" fill="#141F38" stroke="#5E8FF3" stroke-opacity=".65"/>
-  <path d="M920 216L974 247L1028 216M974 247V298" stroke="#94A8FF" stroke-opacity=".65" fill="none"/>
-  <circle cx="974" cy="247" r="13" fill="#A9FF75" fill-opacity=".14" stroke="#B7FF70" stroke-width="2" class="pulse"/>
-  <circle cx="974" cy="247" r="4" fill="#B7FF70"/>
-</g>
-<g class="float-delay"><rect x="1092" y="140" width="94" height="53" rx="11" fill="#12182B" stroke="#3B75CE" stroke-opacity=".7"/><path d="M1106 171l10-7 10 5 11-14 10 4 12-9 12 5" fill="none" stroke="#69BCFF" stroke-width="2.2"/><circle cx="1160" cy="153" r="3" fill="#B9FF6D"/></g>
-<g class="pulse-delay"><circle cx="835" cy="312" r="9" fill="#10162B" stroke="#B7FF70" stroke-width="2"/><circle cx="835" cy="312" r="3" fill="#B7FF70"/><path d="M846 311h35" fill="none" stroke="#A9FF6D" stroke-width="1.5" stroke-opacity=".7"/></g>
-<text x="1048" y="373" class="mono" fill="#94A5C8" font-size="11" letter-spacing="1">E/CORE  •  01</text>
+<path d="M-20 345.0 C195 416.0 282 517.0 529 456.0 S780 450.0 1030 515.0" fill="none" stroke="#7A4CFF" stroke-width="1.25" stroke-opacity="0.090"/>
+<path d="M-20 350.4 C195 418.9 282 520.9 529 458.5 S780 452.6 1030 516.2" fill="none" stroke="#154FFF" stroke-width="1.25" stroke-opacity="0.104"/>
+<path d="M-20 355.7 C195 421.8 282 524.8 529 461.1 S780 455.2 1030 517.3" fill="none" stroke="#00CBFF" stroke-width="1.25" stroke-opacity="0.118"/>
+<path d="M-20 361.1 C195 424.7 282 528.7 529 463.6 S780 457.8 1030 518.5" fill="none" stroke="#7A47FF" stroke-width="1.25" stroke-opacity="0.132"/>
+<path d="M-20 366.5 C195 427.6 282 532.7 529 466.1 S780 460.4 1030 519.6" fill="none" stroke="#7A4CFF" stroke-width="1.25" stroke-opacity="0.146"/>
+<path d="M-20 371.8 C195 430.5 282 536.6 529 468.7 S780 463.1 1030 520.8" fill="none" stroke="#154FFF" stroke-width="1.25" stroke-opacity="0.160"/>
+<path d="M-20 377.2 C195 433.4 282 540.5 529 471.2 S780 465.7 1030 522.0" fill="none" stroke="#00CBFF" stroke-width="1.25" stroke-opacity="0.174"/>
+<path d="M-20 382.6 C195 436.3 282 544.4 529 473.8 S780 468.3 1030 523.1" fill="none" stroke="#7A47FF" stroke-width="1.25" stroke-opacity="0.090"/>
+<path d="M-20 387.9 C195 439.2 282 548.3 529 476.3 S780 470.9 1030 524.3" fill="none" stroke="#7A4CFF" stroke-width="1.25" stroke-opacity="0.104"/>
+<path d="M-20 393.3 C195 442.1 282 552.2 529 478.8 S780 473.5 1030 525.4" fill="none" stroke="#154FFF" stroke-width="1.25" stroke-opacity="0.118"/>
+<path d="M-20 398.6 C195 445.0 282 556.1 529 481.4 S780 476.1 1030 526.6" fill="none" stroke="#00CBFF" stroke-width="1.25" stroke-opacity="0.132"/>
+<path d="M-20 404.0 C195 447.9 282 560.1 529 483.9 S780 478.7 1030 527.8" fill="none" stroke="#7A47FF" stroke-width="1.25" stroke-opacity="0.146"/>
+<path d="M-20 409.4 C195 450.8 282 564.0 529 486.4 S780 481.3 1030 528.9" fill="none" stroke="#7A4CFF" stroke-width="1.25" stroke-opacity="0.160"/>
+<path d="M-20 414.7 C195 453.7 282 567.9 529 489.0 S780 483.9 1030 530.1" fill="none" stroke="#154FFF" stroke-width="1.25" stroke-opacity="0.174"/>
+<path d="M-20 420.1 C195 456.6 282 571.8 529 491.5 S780 486.5 1030 531.2" fill="none" stroke="#00CBFF" stroke-width="1.25" stroke-opacity="0.090"/>
+<path d="M-20 425.5 C195 459.5 282 575.7 529 494.1 S780 489.1 1030 532.4" fill="none" stroke="#7A47FF" stroke-width="1.25" stroke-opacity="0.104"/>
+<path d="M-20 430.8 C195 462.4 282 579.6 529 496.6 S780 491.8 1030 533.6" fill="none" stroke="#7A4CFF" stroke-width="1.25" stroke-opacity="0.118"/>
+<path d="M-20 436.2 C195 465.3 282 583.6 529 499.1 S780 494.4 1030 534.7" fill="none" stroke="#154FFF" stroke-width="1.25" stroke-opacity="0.132"/>
+<path d="M-20 441.6 C195 468.2 282 587.5 529 501.7 S780 497.0 1030 535.9" fill="none" stroke="#00CBFF" stroke-width="1.25" stroke-opacity="0.146"/>
+<path d="M-20 446.9 C195 471.1 282 591.4 529 504.2 S780 499.6 1030 537.0" fill="none" stroke="#7A47FF" stroke-width="1.25" stroke-opacity="0.160"/>
+<path d="M-20 452.3 C195 474.0 282 595.3 529 506.8 S780 502.2 1030 538.2" fill="none" stroke="#7A4CFF" stroke-width="1.25" stroke-opacity="0.174"/>
+<path d="M-20 457.7 C195 476.9 282 599.2 529 509.3 S780 504.8 1030 539.4" fill="none" stroke="#154FFF" stroke-width="1.25" stroke-opacity="0.090"/>
+<path d="M-20 463.0 C195 479.8 282 603.1 529 511.8 S780 507.4 1030 540.5" fill="none" stroke="#00CBFF" stroke-width="1.25" stroke-opacity="0.104"/>
+<path d="M-20 468.4 C195 482.7 282 607.0 529 514.4 S780 510.0 1030 541.7" fill="none" stroke="#7A47FF" stroke-width="1.25" stroke-opacity="0.118"/>
+<path d="M-20 473.8 C195 485.6 282 611.0 529 516.9 S780 512.6 1030 542.8" fill="none" stroke="#7A4CFF" stroke-width="1.25" stroke-opacity="0.132"/>
+<path d="M-20 479.1 C195 488.5 282 614.9 529 519.4 S780 515.2 1030 544.0" fill="none" stroke="#154FFF" stroke-width="1.25" stroke-opacity="0.146"/>
+<path d="M-20 484.5 C195 491.4 282 618.8 529 522.0 S780 517.9 1030 545.2" fill="none" stroke="#00CBFF" stroke-width="1.25" stroke-opacity="0.160"/>
 
+  <!-- receding floor grid under the chip: background, not an interface card -->
+  <path d="M820 380L1512 252L1720 500L960 608Z" fill="#05102B" opacity=".31"/>
+
+<path d="M740 540L969.0 288" stroke="#1B56D6" stroke-width="1" opacity=".20"/>
+<path d="M824 540L998.4 288" stroke="#1B56D6" stroke-width="1" opacity=".20"/>
+<path d="M908 540L1027.8 288" stroke="#1B56D6" stroke-width="1" opacity=".20"/>
+<path d="M992 540L1057.2 288" stroke="#1B56D6" stroke-width="1" opacity=".20"/>
+<path d="M1076 540L1086.6 288" stroke="#1B56D6" stroke-width="1" opacity=".20"/>
+<path d="M1160 540L1116.0 288" stroke="#1B56D6" stroke-width="1" opacity=".20"/>
+<path d="M1244 540L1145.4 288" stroke="#1B56D6" stroke-width="1" opacity=".20"/>
+<path d="M1328 540L1174.8 288" stroke="#1B56D6" stroke-width="1" opacity=".20"/>
+<path d="M1412 540L1204.2 288" stroke="#1B56D6" stroke-width="1" opacity=".20"/>
+<path d="M1496 540L1233.6 288" stroke="#1B56D6" stroke-width="1" opacity=".20"/>
+<path d="M1580 540L1263.0 288" stroke="#1B56D6" stroke-width="1" opacity=".20"/>
+<path d="M1664 540L1292.4 288" stroke="#1B56D6" stroke-width="1" opacity=".20"/>
+<path d="M810 333L1640 193" stroke="#215DD4" stroke-width="1" opacity=".19"/>
+<path d="M810 362L1640 233" stroke="#215DD4" stroke-width="1" opacity=".19"/>
+<path d="M810 391L1640 273" stroke="#215DD4" stroke-width="1" opacity=".19"/>
+<path d="M810 420L1640 313" stroke="#215DD4" stroke-width="1" opacity=".19"/>
+<path d="M810 449L1640 353" stroke="#215DD4" stroke-width="1" opacity=".19"/>
+<path d="M810 478L1640 393" stroke="#215DD4" stroke-width="1" opacity=".19"/>
+<path d="M810 507L1640 433" stroke="#215DD4" stroke-width="1" opacity=".19"/>
+
+  <path d="M630 455L1340 333L1650 364" fill="none" stroke="#7130FF" stroke-width="8" opacity=".36" filter="url(#neon)"/>
+  <path d="M630 455L1340 333L1650 364" fill="none" stroke="#8941FF" stroke-width="1.8" opacity=".78"/>
+  <path d="M0 488C215 459 287 573 515 487C672 433 794 462 930 525" fill="none" stroke="#00C6FF" stroke-width="13" opacity=".34" filter="url(#neon)"/>
+  <path d="M0 488C215 459 287 573 515 487C672 433 794 462 930 525" fill="none" stroke="url(#wave)" stroke-width="2.4" opacity=".9" class="waveShimmer"/>
+  <!-- orbital HUD, partially hidden behind a physical chip stack -->
+  <circle cx="1255" cy="251" r="218" stroke="#116DE8" stroke-width="1.5" stroke-opacity=".59" fill="none" stroke-dasharray="650 126"/>
+  <circle cx="1255" cy="251" r="194" stroke="#00BFFF" stroke-width="5.5" opacity=".12" fill="none" stroke-dasharray="2 11"/>
+  <g class="haloRotate">
+    <circle cx="1255" cy="251" r="196" stroke="#078DF0" stroke-opacity=".72" stroke-width="5.1" fill="none" stroke-dasharray="4 8 7 10 160 930"/>
+    <circle cx="1255" cy="251" r="218" stroke="#B1FF27" stroke-width="2.4" stroke-opacity=".55" fill="none" stroke-dasharray="55 1340"/>
+  </g>
+  <!-- data panel as an etched glass fragment, not a floating UI card -->
+  <g class="panelFloat" opacity=".85">
+    <path d="M957 120L1085 57Q1098 50 1098 66V213L958 276Q947 280 947 267V138Q947 126 957 120Z" fill="#123569" fill-opacity=".19" stroke="#068BFA" stroke-opacity=".65" stroke-width="1.25"/>
+    <path d="M968 210V188M992 207V151M1016 195V174M1040 180V139M1064 170V121" stroke="#00D3FF" stroke-width="5" stroke-linecap="round" opacity=".68"/>
+    <path d="M968 211V178M992 207V167M1016 195V159M1040 180V153M1064 170V144" stroke="#C4FF29" stroke-width="2" stroke-linecap="round" opacity=".68"/>
+  </g>
+  <g opacity=".66">
+    <path d="M1486 164L1577 122Q1591 118 1591 136V255L1486 301Z" stroke="#028EF4" stroke-width="1.2" fill="#071B3A" fill-opacity=".22"/>
+    <path d="M1498 265L1534 250L1572 234" fill="none" stroke="#7E36F6" stroke-width="1.4"/>
+  </g>
+  <!-- physical ground shadow follows the suspended chip -->
+  <g class="shadowBreath"><ellipse cx="1240" cy="395" rx="206" ry="36" fill="#000513" opacity=".89" filter="url(#wideGlow)"/><ellipse cx="1240" cy="389" rx="158" ry="18" fill="#00BFFF" opacity=".20" filter="url(#wideGlow)"/></g>
+  <!-- independently hovering lower two glass/silicon layers -->
+  <g class="stack" filter="url(#shadow)">
+    <path d="M1049 313L1205 228Q1226 219 1246 229L1419 309Q1435 318 1415 330L1255 423Q1238 433 1221 424L1054 334Q1038 325 1049 313Z" fill="#050D2E" stroke="#184DFF" stroke-width="3"/>
+    <path d="M1051 314L1205 230Q1225 219 1246 230L1417 311Q1436 321 1417 329L1256 414Q1239 422 1221 414L1051 332Q1038 324 1051 314Z" fill="url(#bottomplate)" stroke="url(#bottomrim)" stroke-width="3.4"/>
+    <path d="M1053 331L1221 421Q1240 431 1255 422L1418 328" stroke="#00CDFF" stroke-width="5" opacity=".57" fill="none" filter="url(#neon)"/>
+    <path d="M1066 321L1210 241L1403 317L1240 402Z" stroke="#2395FF" stroke-width="1.2" stroke-opacity=".56" fill="#030C28" fill-opacity=".44"/>
+    <path d="M1080 270L1210 196Q1233 185 1253 198L1420 269Q1437 278 1414 292L1258 378Q1236 392 1217 379L1081 301Q1052 287 1080 270Z" fill="#020B25" stroke="#1D93FF" stroke-width="5"/>
+    <path d="M1080 268L1210 195Q1233 184 1253 197L1420 267Q1437 278 1414 290L1258 366Q1238 378 1217 367L1081 289Q1052 279 1080 268Z" fill="url(#midplate)" stroke="url(#midrim)" stroke-width="3.5"/>
+    <path d="M1080 290L1217 368Q1240 382 1258 369L1416 289" stroke="#0EFFFF" stroke-width="4" opacity=".86" fill="none" filter="url(#neon)"/>
+    <path d="M1098 270L1218 208L1389 276L1236 350Z" fill="#05182D" stroke="#1757DB" stroke-width="1.1" opacity=".88"/>
+    <path d="M1098 270L1218 208L1389 276L1236 350Z" fill="url(#chipDots)" opacity=".8"/>
+    <path d="M1112 268L1240 333L1372 275" stroke="#00BFFF" stroke-opacity=".24" fill="none"/>
+    <path d="M1080 269L1210 196Q1233 185 1253 198L1420 269" fill="none" stroke="url(#midrim)" stroke-opacity=".75" stroke-width="8" filter="url(#neon)"/>
+  </g>
+  <!-- Top processor: this physical object moves farther than the base stack -->
+  <g class="topFloat" filter="url(#shadow)">
+    <path d="M1043 196L1207 107Q1220 100 1236 108L1420 198Q1437 209 1420 219L1255 315Q1239 324 1224 315L1045 219Q1028 210 1043 196Z" fill="#031022" stroke="#317CFF" stroke-width="5"/>
+    <path d="M1043 186L1207 96Q1220 89 1236 97L1420 187Q1437 198 1420 208L1255 304Q1239 313 1224 304L1045 208Q1028 199 1043 186Z" fill="url(#topplate)" stroke="url(#toprim)" stroke-width="4.5" stroke-linejoin="round"/>
+    <path d="M1043 196L1224 315Q1239 325 1255 315L1420 219" fill="none" stroke="url(#toprim)" stroke-width="4" opacity=".8"/>
+    <path d="M1043 186L1207 96Q1220 89 1236 97L1420 187Q1437 198 1420 208L1255 304Q1239 313 1224 304L1045 208Q1028 199 1043 186Z" fill="none" stroke="url(#toprim)" stroke-width="13" opacity=".55" filter="url(#neon)"/>
+    <g clip-path="url(#chipTopClip)">
+      <path d="M1094 189L1220 122L1383 193L1241 279Z" fill="#051734" stroke="#3A64E6" stroke-opacity=".47" stroke-width="1.3"/>
+      <path d="M1109 191L1220 134L1364 195L1240 265Z" fill="#07162E" stroke="#196BC4" stroke-width="1.1"/>
+      <path d="M1097 189L1225 262M1136 168L1261 240M1182 145L1311 216M1229 126L1352 199" fill="none" stroke="#00A8ED" stroke-opacity=".13" stroke-width="1.1"/>
+      <path d="M1236 120L1113 194L1240 269L1370 193" fill="none" stroke="#83FF25" stroke-opacity=".19" stroke-width="1.1"/>
+      <path class="lightRun" d="M1046 187L1207 97Q1220 91 1237 99L1421 187Q1436 198 1419 207L1255 304Q1238 312 1224 304L1044 207Z" fill="none" stroke="#D3FF5E" stroke-width="6" stroke-linecap="round"/>
+      <path d="M1075 191L1197 126" stroke="#B1FF25" stroke-opacity=".66" stroke-width="4"/>
+      <path d="M1387 197L1268 271" stroke="#703DFF" stroke-opacity=".8" stroke-width="4"/>
+      <path d="M1113 194L1242 264L1366 194" stroke="#00DBFF" stroke-opacity=".28" fill="none" stroke-width="2"/>
+    </g>
+    <!-- only luminous white-cyan code glyph, no emoji or HTML dependency -->
+    <g class="iconPulse" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M1198 165L1158 189L1198 211M1288 166L1328 189L1288 211M1267 147L1218 232" fill="none" stroke="#39DFFF" stroke-width="16" filter="url(#hotGlow)" opacity=".9"/>
+      <path d="M1198 165L1158 189L1198 211M1288 166L1328 189L1288 211M1267 147L1218 232" fill="none" stroke="#B9F9FF" stroke-width="7.5"/>
+    </g>
+  </g>
+  <!-- bright under-chip energy support and optical highlights -->
+  <path d="M1239 355L1239 426" stroke="#00DFFF" stroke-width="4" opacity=".51" filter="url(#neon)"/>
+  <path d="M1215 411L1260 411M1239 387L1239 435" stroke="#43DAFF" stroke-width="1.4" opacity=".5"/>
+  <circle cx="1240" cy="396" r="17" fill="#00DFFF" opacity=".37" filter="url(#hotGlow)"/>
+  <!-- lime precision brackets frame the entire module -->
+  <path d="M1038 86L1038 113L1009 130" stroke="#B1FF27" stroke-width="4" stroke-linejoin="round" fill="none"/>
+  <path d="M1452 318L1452 341L1425 357" stroke="#BAFF39" stroke-width="3" stroke-linejoin="round" opacity=".73" fill="none"/>
+  <rect x="1476" y="376" width="106" height="74" fill="url(#dots)" opacity=".50" class="dotsPulse"/>
+  <!-- title remains above left-side ambience and never moves -->
+  <rect x="164" y="107" width="71" height="10" rx="3" fill="#B1FF27"/>
+  <text x="156" y="241" font-weight="820" font-size="116" letter-spacing="-5.7" fill="#FFFFFF">Erick</text>
+  <text x="465" y="241" font-weight="820" font-size="116" letter-spacing="-5.7" fill="#B0FF28">Silva</text>
+  <text x="160" y="297" font-weight="460" font-size="33.6" letter-spacing="-.6" fill="#F0F3FF">Software Engineering <tspan fill="#B6FF28">&#x2022;</tspan> Systems <tspan fill="#B6FF28">&#x2022;</tspan> Applied AI</text>
+  <rect x="161" y="334" width="546" height="6" fill="url(#beam)"/>
+  <path d="M160 334H324L340 329H482" stroke="#AAFF28" stroke-width="2.7" opacity=".88" fill="none"/>
+  <!-- visually small spectral pin-lines to match the approved atmospheric direction -->
+  <path d="M1211 34L1230 9" stroke="#00C9FF" stroke-width="2" opacity=".75"/>
+  <path d="M1230 34L1249 9" stroke="#7C28FF" stroke-width="2" opacity=".55"/>
+</g>
 </svg>

@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="680" viewBox="0 0 900 680" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="title desc">
+<title id="title">Erick Silva — Software Engineering, Systems and Applied AI</title>
+<desc id="desc">Cinematic dark violet developer hero with electric blue and lime light streams. On the right, a three-dimensional solid-color floating chip stack rises and falls with animated glowing edges and shadows. Motion stops when reduced motion is preferred.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#100421"/><stop offset=".49" stop-color="#07071D"/><stop offset="1" stop-color="#020D23"/></linearGradient>
+  <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#B72CFF"/><stop offset=".27" stop-color="#4D72FF"/><stop offset=".65" stop-color="#00C9FF"/><stop offset="1" stop-color="#9CFF29"/></linearGradient>
+  <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#7D21FF"/><stop offset=".48" stop-color="#00BFFF"/><stop offset=".77" stop-color="#8C27FF"/><stop offset="1" stop-color="#008BFF"/></linearGradient>
+  <linearGradient id="beam" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#B1FF28"/><stop offset=".45" stop-color="#00E4FF"/><stop offset=".85" stop-color="#2363FF"/><stop offset="1" stop-color="#2363FF" stop-opacity="0"/></linearGradient>
+  <linearGradient id="topplate" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#102C46"/><stop offset=".33" stop-color="#062439"/><stop offset=".74" stop-color="#111544"/><stop offset="1" stop-color="#221158"/></linearGradient>
+  <linearGradient id="midplate" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#041E42"/><stop offset=".6" stop-color="#122251"/><stop offset="1" stop-color="#230E4E"/></linearGradient>
+  <linearGradient id="bottomplate" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0C1A42"/><stop offset=".48" stop-color="#041C3B"/><stop offset="1" stop-color="#170C44"/></linearGradient>
+  <linearGradient id="toprim" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#9EFF0B"/><stop offset=".21" stop-color="#4AFF86"/><stop offset=".5" stop-color="#00EFFF"/><stop offset=".78" stop-color="#368AFF"/><stop offset="1" stop-color="#8B30FF"/></linearGradient>
+  <linearGradient id="midrim" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00C4FF"/><stop offset=".52" stop-color="#15EAFF"/><stop offset="1" stop-color="#9B29FF"/></linearGradient>
+  <linearGradient id="bottomrim" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#1C65FF"/><stop offset=".54" stop-color="#00CFFF"/><stop offset="1" stop-color="#682DFF"/></linearGradient>
+  <radialGradient id="aurora"><stop stop-color="#3B13C6" stop-opacity=".49"/><stop offset=".45" stop-color="#18095D" stop-opacity=".24"/><stop offset="1" stop-color="#0A0A38" stop-opacity="0"/></radialGradient>
+  <radialGradient id="cyanHalo"><stop stop-color="#00D3FF" stop-opacity=".27"/><stop offset=".52" stop-color="#0066FF" stop-opacity=".11"/><stop offset="1" stop-color="#0066FF" stop-opacity="0"/></radialGradient>
+  <radialGradient id="limeHalo"><stop stop-color="#AFFF34" stop-opacity=".35"/><stop offset="1" stop-color="#AFFF34" stop-opacity="0"/></radialGradient>
+  <pattern id="micro" x="0" y="0" width="21" height="21" patternUnits="userSpaceOnUse"><path d="M21 0H0V21" stroke="#2565CB" stroke-width=".65" stroke-opacity=".18" fill="none"/></pattern>
+  <pattern id="dots" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse"><rect x="0" y="0" width="3.3" height="3.3" fill="#4490FF" opacity=".45"/></pattern>
+  <pattern id="chipDots" x="0" y="0" width="19" height="16" patternUnits="userSpaceOnUse"><circle cx="6" cy="6" r="1.75" fill="#00D8FF" opacity=".65"/></pattern>
+  <filter id="shadow" x="-60%" y="-70%" width="220%" height="260%"><feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#02020C" flood-opacity=".95"/><feDropShadow dx="0" dy="7" stdDeviation="10" flood-color="#1244D9" flood-opacity=".32"/></filter>
+  <filter id="neon" x="-100%" y="-150%" width="300%" height="400%"><feGaussianBlur stdDeviation="6"/></filter>
+  <filter id="wideGlow" x="-150%" y="-150%" width="400%" height="400%"><feGaussianBlur stdDeviation="16"/></filter>
+  <filter id="hotGlow" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="8"/></filter>
+  <clipPath id="viewport"><rect x="0" y="0" width="1600" height="540" rx="13"/></clipPath>
+  <clipPath id="chipTopClip"><path d="M1043 186L1207 96Q1220 89 1236 97L1420 187Q1437 198 1420 208L1255 304Q1239 313 1224 304L1045 208Q1028 199 1043 186Z"/></clipPath>
+<clipPath id="mobileViewport"><rect x="0" y="0" width="900" height="680" rx="18"/></clipPath></defs>
+<style>
+  text{font-family:Inter,'Arial',system-ui,sans-serif}
+  .mono{font-family:'SFMono-Regular','Consolas',monospace}
+  .stack{animation:floatStack 6.8s cubic-bezier(.45,0,.55,1) infinite;transform-origin:1232px 245px}
+  .topFloat{animation:floatTop 6.8s cubic-bezier(.45,0,.55,1) infinite;transform-origin:1232px 245px}
+  .lightRun{stroke-dasharray:34 160;animation:stream 5.8s linear infinite}
+  .haloRotate{animation:haloSpin 36s linear infinite;transform-origin:1255px 251px}
+  .shadowBreath{animation:shadowPulse 6.8s ease-in-out infinite;transform-origin:1240px 385px}
+  .iconPulse{animation:iconPulse 4.7s ease-in-out infinite}
+  .scan{animation:scan 4.8s ease-in-out infinite}
+  .dotsPulse{animation:dotPulse 4s ease-in-out infinite}
+  .waveShimmer{stroke-dasharray:220 1000;animation:stream 22s linear infinite}
+  .panelFloat{animation:panelFloat 8s ease-in-out infinite}
+  @keyframes floatStack{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
+  @keyframes floatTop{0%,100%{transform:translateY(0)}50%{transform:translateY(-20px)}}
+  @keyframes stream{to{stroke-dashoffset:-1200}}
+  @keyframes haloSpin{to{transform:rotate(360deg)}}
+  @keyframes shadowPulse{0%,100%{transform:scale(1);opacity:.88}50%{transform:scale(.86);opacity:.56}}
+  @keyframes iconPulse{0%,100%{opacity:.82}50%{opacity:1}}
+  @keyframes scan{0%,100%{opacity:.38;transform:translateY(0)}50%{opacity:.82;transform:translateY(26px)}}
+  @keyframes dotPulse{0%,100%{opacity:.35}50%{opacity:.8}}
+  @keyframes panelFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-7px)}}
+  @media(prefers-reduced-motion:reduce){.stack,.topFloat,.lightRun,.haloRotate,.shadowBreath,.iconPulse,.scan,.dotsPulse,.waveShimmer,.panelFloat{animation:none!important}}
+
+.stack,.topFloat,.lightRun,.haloRotate,.shadowBreath,.iconPulse,.scan,.dotsPulse,.waveShimmer,.panelFloat{animation:none!important}
+</style>
+<g clip-path="url(#mobileViewport)">
+  <rect width="900" height="680" fill="url(#bg)"/>
+  <ellipse cx="20" cy="80" rx="350" ry="300" fill="url(#aurora)"/>
+  <ellipse cx="530" cy="490" rx="460" ry="270" fill="url(#cyanHalo)"/>
+  <path d="M80 -40C-20 146-30 340 140 475" fill="none" stroke="#7533FF" stroke-width="32" opacity=".22" filter="url(#neon)"/>
+  <path d="M80 -40C-20 146-30 340 140 475" fill="none" stroke="url(#wave)" stroke-width="3" opacity=".73"/>
+  <rect x="65" y="31" width="140" height="62" fill="url(#dots)" opacity=".53"/>
+  <rect x="73" y="69" width="65" height="10" rx="3" fill="#AEFF21"/>
+  <text x="67" y="182" font-size="119" font-weight="820" letter-spacing="-5.7" fill="#FFFFFF">Erick</text>
+  <text x="377" y="182" font-size="119" font-weight="820" letter-spacing="-5.7" fill="#B0FF28">Silva</text>
+  <text x="76" y="244" font-size="41" fill="#F4F8FF">Software Engineering</text>
+  <text x="76" y="292" font-size="39" fill="#EAF0FE">Systems <tspan fill="#B1FF27">&#x2022;</tspan> Applied AI</text>
+  <rect x="75" y="321" width="580" height="5" fill="url(#beam)"/>
+  <path d="M75 321H242L260 316H358" fill="none" stroke="#B6FF2B" stroke-width="2.5"/>
+  <circle cx="532" cy="470" r="192" fill="none" stroke="#1A73E6" stroke-width="2" stroke-opacity=".3"/>
+  <circle cx="532" cy="470" r="162" fill="none" stroke="#158DFF" stroke-width="3" stroke-opacity=".35" stroke-dasharray="2 9" class="haloRotate"/>
+  <path d="M0 625L900 410M0 662L900 445M120 680L900 500" stroke="#155ACD" stroke-width="1.4" opacity=".23"/>
+  <path d="M130 617L540 565L900 622" fill="none" stroke="#5639FF" stroke-width="9" opacity=".35" filter="url(#neon)"/>
+  <path d="M130 617L540 565L900 622" fill="none" stroke="#653CFF" stroke-width="1.7" opacity=".62"/>
+  <path d="M20 670C205 630 278 688 400 639S660 580 890 666" fill="none" stroke="url(#wave)" stroke-width="1.9" opacity=".5"/>
+  <path d="M265 358L265 379L245 390" stroke="#AFFF27" stroke-width="3.2" fill="none"/>
+  <g transform="translate(-650 224) scale(.95)">
+<!-- physical ground shadow follows the suspended chip -->
+  <g class="shadowBreath"><ellipse cx="1240" cy="395" rx="206" ry="36" fill="#000513" opacity=".89" filter="url(#wideGlow)"/><ellipse cx="1240" cy="389" rx="158" ry="18" fill="#00BFFF" opacity=".20" filter="url(#wideGlow)"/></g>
+  <!-- independently hovering lower two glass/silicon layers -->
+  <g class="stack" filter="url(#shadow)">
+    <path d="M1049 313L1205 228Q1226 219 1246 229L1419 309Q1435 318 1415 330L1255 423Q1238 433 1221 424L1054 334Q1038 325 1049 313Z" fill="#050D2E" stroke="#184DFF" stroke-width="3"/>
+    <path d="M1051 314L1205 230Q1225 219 1246 230L1417 311Q1436 321 1417 329L1256 414Q1239 422 1221 414L1051 332Q1038 324 1051 314Z" fill="url(#bottomplate)" stroke="url(#bottomrim)" stroke-width="3.4"/>
+    <path d="M1053 331L1221 421Q1240 431 1255 422L1418 328" stroke="#00CDFF" stroke-width="5" opacity=".57" fill="none" filter="url(#neon)"/>
+    <path d="M1066 321L1210 241L1403 317L1240 402Z" stroke="#2395FF" stroke-width="1.2" stroke-opacity=".56" fill="#030C28" fill-opacity=".44"/>
+    <path d="M1080 270L1210 196Q1233 185 1253 198L1420 269Q1437 278 1414 292L1258 378Q1236 392 1217 379L1081 301Q1052 287 1080 270Z" fill="#020B25" stroke="#1D93FF" stroke-width="5"/>
+    <path d="M1080 268L1210 195Q1233 184 1253 197L1420 267Q1437 278 1414 290L1258 366Q1238 378 1217 367L1081 289Q1052 279 1080 268Z" fill="url(#midplate)" stroke="url(#midrim)" stroke-width="3.5"/>
+    <path d="M1080 290L1217 368Q1240 382 1258 369L1416 289" stroke="#0EFFFF" stroke-width="4" opacity=".86" fill="none" filter="url(#neon)"/>
+    <path d="M1098 270L1218 208L1389 276L1236 350Z" fill="#05182D" stroke="#1757DB" stroke-width="1.1" opacity=".88"/>
+    <path d="M1098 270L1218 208L1389 276L1236 350Z" fill="url(#chipDots)" opacity=".8"/>
+    <path d="M1112 268L1240 333L1372 275" stroke="#00BFFF" stroke-opacity=".24" fill="none"/>
+    <path d="M1080 269L1210 196Q1233 185 1253 198L1420 269" fill="none" stroke="url(#midrim)" stroke-opacity=".75" stroke-width="8" filter="url(#neon)"/>
+  </g>
+  <!-- Top processor: this physical object moves farther than the base stack -->
+  <g class="topFloat" filter="url(#shadow)">
+    <path d="M1043 196L1207 107Q1220 100 1236 108L1420 198Q1437 209 1420 219L1255 315Q1239 324 1224 315L1045 219Q1028 210 1043 196Z" fill="#031022" stroke="#317CFF" stroke-width="5"/>
+    <path d="M1043 186L1207 96Q1220 89 1236 97L1420 187Q1437 198 1420 208L1255 304Q1239 313 1224 304L1045 208Q1028 199 1043 186Z" fill="url(#topplate)" stroke="url(#toprim)" stroke-width="4.5" stroke-linejoin="round"/>
+    <path d="M1043 196L1224 315Q1239 325 1255 315L1420 219" fill="none" stroke="url(#toprim)" stroke-width="4" opacity=".8"/>
+    <path d="M1043 186L1207 96Q1220 89 1236 97L1420 187Q1437 198 1420 208L1255 304Q1239 313 1224 304L1045 208Q1028 199 1043 186Z" fill="none" stroke="url(#toprim)" stroke-width="13" opacity=".55" filter="url(#neon)"/>
+    <g clip-path="url(#chipTopClip)">
+      <path d="M1094 189L1220 122L1383 193L1241 279Z" fill="#051734" stroke="#3A64E6" stroke-opacity=".47" stroke-width="1.3"/>
+      <path d="M1109 191L1220 134L1364 195L1240 265Z" fill="#07162E" stroke="#196BC4" stroke-width="1.1"/>
+      <path d="M1097 189L1225 262M1136 168L1261 240M1182 145L1311 216M1229 126L1352 199" fill="none" stroke="#00A8ED" stroke-opacity=".13" stroke-width="1.1"/>
+      <path d="M1236 120L1113 194L1240 269L1370 193" fill="none" stroke="#83FF25" stroke-opacity=".19" stroke-width="1.1"/>
+      <path class="lightRun" d="M1046 187L1207 97Q1220 91 1237 99L1421 187Q1436 198 1419 207L1255 304Q1238 312 1224 304L1044 207Z" fill="none" stroke="#D3FF5E" stroke-width="6" stroke-linecap="round"/>
+      <path d="M1075 191L1197 126" stroke="#B1FF25" stroke-opacity=".66" stroke-width="4"/>
+      <path d="M1387 197L1268 271" stroke="#703DFF" stroke-opacity=".8" stroke-width="4"/>
+      <path d="M1113 194L1242 264L1366 194" stroke="#00DBFF" stroke-opacity=".28" fill="none" stroke-width="2"/>
+    </g>
+    <!-- only luminous white-cyan code glyph, no emoji or HTML dependency -->
+    <g class="iconPulse" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M1198 165L1158 189L1198 211M1288 166L1328 189L1288 211M1267 147L1218 232" fill="none" stroke="#39DFFF" stroke-width="16" filter="url(#hotGlow)" opacity=".9"/>
+      <path d="M1198 165L1158 189L1198 211M1288 166L1328 189L1288 211M1267 147L1218 232" fill="none" stroke="#B9F9FF" stroke-width="7.5"/>
+    </g>
+  </g>
+  <!-- bright under-chip energy support and optical highlights -->
+  <path d="M1239 355L1239 426" stroke="#00DFFF" stroke-width="4" opacity=".51" filter="url(#neon)"/>
+  <path d="M1215 411L1260 411M1239 387L1239 435" stroke="#43DAFF" stroke-width="1.4" opacity=".5"/>
+  <circle cx="1240" cy="396" r="17" fill="#00DFFF" opacity=".37" filter="url(#hotGlow)"/>
+  
+</g>
+  <path d="M765 576V599L747 610" fill="none" stroke="#B6FF2D" stroke-width="2.8" opacity=".66"/>
+  <rect x="770" y="584" width="102" height="80" fill="url(#dots)" opacity=".47"/>
+</g>
+</svg>
