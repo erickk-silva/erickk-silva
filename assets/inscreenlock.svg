@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="305" viewBox="0 0 1200 305" role="img" aria-label="InScreenLock — Android privacy-first screen-time app">
+<title>InScreenLock — Android privacy-first screen-time app</title><desc>InScreenLock is an Android app using Kotlin and Jetpack Compose for intentional screen-time management without remote accounts.</desc><defs>
+  <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#080A15"/>
+    <stop offset=".56" stop-color="#0C1022"/>
+    <stop offset="1" stop-color="#070B16"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#B088FF"/>
+    <stop offset=".43" stop-color="#668BFF"/>
+    <stop offset=".72" stop-color="#53BCFF"/>
+    <stop offset="1" stop-color="#BEFF65"/>
+  </linearGradient>
+  <linearGradient id="aqua" x1="0" y1="1" x2="1" y2="0">
+    <stop offset="0" stop-color="#4359FF"/>
+    <stop offset=".58" stop-color="#4AB6FF"/>
+    <stop offset="1" stop-color="#A8FBD6"/>
+  </linearGradient>
+  <linearGradient id="lime" x1="0" y1="1" x2="1" y2="0">
+    <stop offset="0" stop-color="#46CDB7"/>
+    <stop offset=".55" stop-color="#A2F975"/>
+    <stop offset="1" stop-color="#D1FF72"/>
+  </linearGradient>
+  <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#A780FF"/>
+    <stop offset=".55" stop-color="#6E7FFF"/>
+    <stop offset="1" stop-color="#469DFF"/>
+  </linearGradient>
+  <radialGradient id="purpleGlow"><stop stop-color="#7340D9" stop-opacity=".48"/><stop offset="1" stop-color="#7340D9" stop-opacity="0"/></radialGradient>
+  <radialGradient id="blueGlow"><stop stop-color="#2D7CFE" stop-opacity=".30"/><stop offset="1" stop-color="#2D7CFE" stop-opacity="0"/></radialGradient>
+  <radialGradient id="limeGlow"><stop stop-color="#9FE66D" stop-opacity=".22"/><stop offset="1" stop-color="#9FE66D" stop-opacity="0"/></radialGradient>
+  <pattern id="mesh" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#29334C" stroke-opacity=".4" stroke-width=".8"/></pattern>
+  <pattern id="micro" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".55" fill="#7992C9" fill-opacity=".24"/></pattern>
+</defs><style>
+  text{font-family:Inter,'Inter Display','Segoe UI',Arial,sans-serif}
+  .mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace}
+  .orbit{transform-origin:975px 232px;animation:spin 28s linear infinite}
+  .orbit-reverse{transform-origin:975px 232px;animation:spin 36s linear infinite reverse}
+  .float{animation:float 5s ease-in-out infinite}
+  .float-delay{animation:float 7s ease-in-out infinite reverse}
+  .pulse{animation:pulse 3.4s ease-in-out infinite}
+  .pulse-delay{animation:pulse 5s ease-in-out infinite reverse}
+  .flow{stroke-dasharray:10 11;animation:dash 5s linear infinite}
+  .scan{animation:scan 7s ease-in-out infinite}
+  .wave{animation:wave 6s ease-in-out infinite}
+  .fade-in{animation:fadein .9s ease-out both}
+  @keyframes spin {to{transform:rotate(360deg)}}
+  @keyframes float{0%,100%{transform:translateY(0px)}50%{transform:translateY(-9px)}}
+  @keyframes pulse{0%,100%{opacity:.48}50%{opacity:1}}
+  @keyframes dash{to{stroke-dashoffset:-126}}
+  @keyframes scan{0%,100%{transform:translateX(0px);opacity:.4}50%{transform:translateX(160px);opacity:.8}}
+  @keyframes wave{0%,100%{opacity:.46}50%{opacity:.95}}
+  @keyframes fadein{0%{opacity:0}100%{opacity:1}}
+  @media (prefers-reduced-motion:reduce){.orbit,.orbit-reverse,.float,.float-delay,.pulse,.pulse-delay,.flow,.scan,.wave,.fade-in{animation:none!important}}
+</style>
+<rect x="1" y="1" width="1198" height="303" rx="25" fill="url(#background)" stroke="#29314B" stroke-width="1.4"/>
+
+<circle cx="1033" cy="126" r="280" fill="url(#purpleGlow)"/><circle cx="941" cy="282" r="220" fill="url(#limeGlow)"/>
+<rect x="760" y="0" width="440" height="305" fill="url(#mesh)" opacity=".48"/>
+<path d="M55 62H1150" stroke="#29364B" stroke-width="1"/>
+<circle cx="61" cy="39" r="4.7" fill="#B5FF70" class="pulse"/>
+<text x="77" y="44" font-size="12" font-weight="800" fill="#99AACA" letter-spacing="2.1" >02 / FEATURED WORK</text><text x="1145" y="43" font-size="11" font-weight="750" fill="#C0FA8D" letter-spacing="1.9" text-anchor="end">ANDROID / PRIVACY / PRODUCT</text>
+<text x="56" y="141" font-size="60" letter-spacing="-2" font-weight="800" fill="#F2F7FF">InScreenLock</text>
+<rect x="57" y="158" width="54" height="3" rx="1.5" fill="url(#accent)"/>
+<text x="56" y="192" font-size="18" fill="#B0BED7">Intentional screen time. Private by design.</text>
+<rect x="56" y="216" width="85" height="31" rx="10" fill="#1C1A37" stroke="#A996FF" stroke-opacity=".30"/><text x="98.5" y="236.5" text-anchor="middle" font-size="12.5" font-weight="650" fill="#A996FF">Kotlin</text><rect x="153" y="216" width="158" height="31" rx="10" fill="#142944" stroke="#70B5FF" stroke-opacity=".30"/><text x="232.0" y="236.5" text-anchor="middle" font-size="12.5" font-weight="650" fill="#70B5FF">Jetpack Compose</text><rect x="323" y="216" width="125" height="31" rx="10" fill="#1B2B23" stroke="#BFFB75" stroke-opacity=".30"/><text x="385.5" y="236.5" text-anchor="middle" font-size="12.5" font-weight="650" fill="#BFFB75">Offline-first</text>
+<text x="58" y="276" fill="#B5A0FF" font-size="13.5" font-weight="700" letter-spacing="1.4">EXPLORE THE PROJECT</text>
+<path d="M242 270h26m-8-7 8 7-8 7" fill="none" stroke="#B4FF7D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- minimal Android interface / aurora glow -->
+<ellipse cx="993" cy="252" rx="170" ry="29" fill="#9D70FF" fill-opacity=".06"/>
+<g class="float">
+ <rect x="923" y="61" width="148" height="234" rx="25" fill="#101525" stroke="#6678C0" stroke-width="2.7"/>
+ <rect x="934" y="74" width="126" height="207" rx="17" fill="#141D30" stroke="#2E3A59"/>
+ <rect x="964" y="82" width="64" height="8" rx="4" fill="#0C1020"/>
+ <text x="949" y="113" fill="#A5B7D6" font-size="9.5" font-weight="650" letter-spacing=".7">TODAY'S FOCUS</text>
+ <circle cx="998" cy="168" r="43" fill="none" stroke="#273851" stroke-width="8"/>
+ <circle cx="998" cy="168" r="43" fill="none" stroke="url(#accent)" stroke-linecap="round" stroke-width="8" stroke-dasharray="173 270" transform="rotate(-90 998 168)"/>
+ <circle cx="998" cy="168" r="29" fill="#182138"/>
+ <path d="M989 167l7 7 13-16" fill="none" stroke="#C0FF7F" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+ <rect x="947" y="231" width="101" height="30" rx="10" fill="#26384B"/>
+ <circle cx="960" cy="245" r="4" fill="#BDFF76"/>
+ <text x="971" y="248.5" fill="#CDE2EC" font-size="11" font-weight="650">LOCAL FIRST</text>
+</g>
+<path d="M815 149L907 149" stroke="#A787FF" stroke-opacity=".54" class="flow"/>
+<rect x="777" y="119" width="126" height="53" rx="11" fill="#18172E" stroke="#8467CC" stroke-opacity=".7"/>
+<circle cx="798" cy="146" r="5.7" fill="#A985FF"/>
+<text x="811" y="142" font-size="11" fill="#F0E9FF" font-weight="700">PRIVACY</text>
+<text x="811" y="155" font-size="9.4" fill="#A79CC9">BY DEFAULT</text>
+<rect x="1077" y="204" width="100" height="51" rx="11" fill="#122C2A" stroke="#6CC69A" stroke-opacity=".55"/>
+<path d="M1096 225l6 6 11-12" stroke="#C2FF77" fill="none" stroke-width="2.5" stroke-linecap="round"/>
+<text x="1120" y="229" font-size="10" fill="#CAFFA0" font-weight="700">OFFLINE</text>
+<circle cx="881" cy="217" r="7" fill="#17172B" stroke="#B4FF70" stroke-width="2" class="pulse-delay"/>
+
+</svg>

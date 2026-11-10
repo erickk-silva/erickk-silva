@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="474" viewBox="0 0 1200 474" role="img" aria-label="Erick Silva — Building systems. Engineering impact.">
+<title>Erick Silva — Building systems. Engineering impact.</title><desc>Dark editorial developer identity with an animated purple, blue and lime isometric orbital system illustration.</desc><defs>
+  <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#080A15"/>
+    <stop offset=".56" stop-color="#0C1022"/>
+    <stop offset="1" stop-color="#070B16"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#B088FF"/>
+    <stop offset=".43" stop-color="#668BFF"/>
+    <stop offset=".72" stop-color="#53BCFF"/>
+    <stop offset="1" stop-color="#BEFF65"/>
+  </linearGradient>
+  <linearGradient id="aqua" x1="0" y1="1" x2="1" y2="0">
+    <stop offset="0" stop-color="#4359FF"/>
+    <stop offset=".58" stop-color="#4AB6FF"/>
+    <stop offset="1" stop-color="#A8FBD6"/>
+  </linearGradient>
+  <linearGradient id="lime" x1="0" y1="1" x2="1" y2="0">
+    <stop offset="0" stop-color="#46CDB7"/>
+    <stop offset=".55" stop-color="#A2F975"/>
+    <stop offset="1" stop-color="#D1FF72"/>
+  </linearGradient>
+  <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#A780FF"/>
+    <stop offset=".55" stop-color="#6E7FFF"/>
+    <stop offset="1" stop-color="#469DFF"/>
+  </linearGradient>
+  <radialGradient id="purpleGlow"><stop stop-color="#7340D9" stop-opacity=".48"/><stop offset="1" stop-color="#7340D9" stop-opacity="0"/></radialGradient>
+  <radialGradient id="blueGlow"><stop stop-color="#2D7CFE" stop-opacity=".30"/><stop offset="1" stop-color="#2D7CFE" stop-opacity="0"/></radialGradient>
+  <radialGradient id="limeGlow"><stop stop-color="#9FE66D" stop-opacity=".22"/><stop offset="1" stop-color="#9FE66D" stop-opacity="0"/></radialGradient>
+  <pattern id="mesh" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#29334C" stroke-opacity=".4" stroke-width=".8"/></pattern>
+  <pattern id="micro" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".55" fill="#7992C9" fill-opacity=".24"/></pattern>
+</defs><style>
+  text{font-family:Inter,'Inter Display','Segoe UI',Arial,sans-serif}
+  .mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace}
+  .orbit{transform-origin:975px 232px;animation:spin 28s linear infinite}
+  .orbit-reverse{transform-origin:975px 232px;animation:spin 36s linear infinite reverse}
+  .float{animation:float 5s ease-in-out infinite}
+  .float-delay{animation:float 7s ease-in-out infinite reverse}
+  .pulse{animation:pulse 3.4s ease-in-out infinite}
+  .pulse-delay{animation:pulse 5s ease-in-out infinite reverse}
+  .flow{stroke-dasharray:10 11;animation:dash 5s linear infinite}
+  .scan{animation:scan 7s ease-in-out infinite}
+  .wave{animation:wave 6s ease-in-out infinite}
+  .fade-in{animation:fadein .9s ease-out both}
+  @keyframes spin {to{transform:rotate(360deg)}}
+  @keyframes float{0%,100%{transform:translateY(0px)}50%{transform:translateY(-9px)}}
+  @keyframes pulse{0%,100%{opacity:.48}50%{opacity:1}}
+  @keyframes dash{to{stroke-dashoffset:-126}}
+  @keyframes scan{0%,100%{transform:translateX(0px);opacity:.4}50%{transform:translateX(160px);opacity:.8}}
+  @keyframes wave{0%,100%{opacity:.46}50%{opacity:.95}}
+  @keyframes fadein{0%{opacity:0}100%{opacity:1}}
+  @media (prefers-reduced-motion:reduce){.orbit,.orbit-reverse,.float,.float-delay,.pulse,.pulse-delay,.flow,.scan,.wave,.fade-in{animation:none!important}}
+</style>
+<rect x="1" y="1" width="1198" height="472" rx="25" fill="url(#background)" stroke="#29314B" stroke-width="1.4"/>
+
+<circle cx="1028" cy="217" r="312" fill="url(#purpleGlow)"/><circle cx="1090" cy="364" r="240" fill="url(#blueGlow)"/>
+<path d="M735 0 H1200 V474 H785" fill="url(#mesh)" opacity=".57"/>
+<path d="M50 108 H1150" stroke="#2B344B" stroke-width="1"/>
+<path d="M50 426 H1150" stroke="#2B344B" stroke-width="1"/>
+<rect x="49" y="34" width="49" height="48" rx="13" fill="#18203A" stroke="#8A80FE" stroke-opacity=".5"/>
+<path d="M63 60h11l-5 8h17" fill="none" stroke="#BEFF65" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M81 49h-13" stroke="#A88BFF" stroke-width="3" stroke-linecap="round"/>
+<text x="113" y="53" font-size="18" fill="#F3F6FF" letter-spacing="2.1" font-weight="800">ERICK SILVA</text>
+<text x="113" y="73" class="mono" font-size="11" fill="#94A4C5" letter-spacing="1.6">SOFTWARE DEVELOPER</text>
+<circle cx="968" cy="56" r="5" fill="#C5FF73" class="pulse"/>
+<text x="985" y="60" font-size="12" fill="#C8D2E6" letter-spacing="1.7" font-weight="600">BUILDING WHAT MATTERS</text>
+<rect x="51" y="144" width="70" height="4" rx="2" fill="url(#accent)"/>
+<text x="49" y="231" font-size="67" font-weight="760" letter-spacing="-2.9" fill="#F5F7FF">Building systems.</text>
+<text x="49" y="311" font-size="67" font-weight="790" letter-spacing="-3.4" fill="url(#accent)">Engineering impact.</text>
+<text x="51" y="351" font-size="17.7" fill="#A7B4D0">Full-stack engineering, applied AI and purposeful product experiences.</text>
+<rect x="51" y="373" width="152" height="33" rx="16.5" fill="#1A1B36" stroke="#705ED1" stroke-opacity=".5"/>
+<circle cx="68" cy="390" r="4" fill="#B991FF"/>
+<text x="81" y="394" font-size="12.5" font-weight="650" fill="#D8D2FC">UFABC / BRAZIL</text>
+<rect x="215" y="373" width="164" height="33" rx="16.5" fill="#142B2B" stroke="#7FE6A5" stroke-opacity=".34"/>
+<path d="M233 388l4 4 8-9" fill="none" stroke="#BDFF7B" stroke-width="2" stroke-linecap="round"/>
+<text x="251" y="394" font-size="12.5" font-weight="650" fill="#BFFF92">PRODUCT MINDSET</text>
+<text x="51" y="453" class="mono" font-size="11" fill="#7F90B0" letter-spacing="1">TYPE / CODE / OBSERVE / IMPROVE</text>
+<text x="1149" y="453" class="mono" font-size="11" fill="#B8FF74" text-anchor="end" letter-spacing="1.4">PORTFOLIO / 001</text>
+<!-- precision-orbit motif -->
+<g opacity=".92">
+  <circle cx="972" cy="238" r="139" fill="none" stroke="#7954C3" stroke-opacity=".33" stroke-width="1.4"/>
+  <circle cx="972" cy="238" r="113" fill="none" stroke="#669CF8" stroke-opacity=".42" stroke-width="1.3" stroke-dasharray="3 8"/>
+  <circle cx="972" cy="238" r="78" fill="none" stroke="#9D93FE" stroke-opacity=".37" stroke-width="1"/>
+  <path d="M833 238H1111M972 99V377" stroke="#8193BF" stroke-opacity=".19" stroke-dasharray="3 9"/>
+  <circle cx="972" cy="238" r="165" fill="none" stroke="#74A7FA" stroke-opacity=".15" stroke-width="1"/>
+</g>
+<g class="orbit"><path d="M834 238A138 138 0 0 1 1087 161" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round"/><circle cx="834" cy="238" r="5.5" fill="#B9FF74"/><circle cx="1087" cy="161" r="4.5" fill="#8F7CFF"/></g>
+<g class="orbit-reverse"><path d="M972 125A113 113 0 0 1 1084 233" fill="none" stroke="#74BBFF" stroke-width="2.4" stroke-linecap="round"/><circle cx="972" cy="125" r="4.3" fill="#B7FF6D"/></g>
+<g class="float">
+  <path d="M974 150L1060 199V284L974 333L888 284V199Z" fill="#171A36" fill-opacity=".8" stroke="url(#purple)" stroke-width="2.2"/>
+  <path d="M974 150V237L888 284M974 237L1060 284M974 237V333M888 199L974 237L1060 199" fill="none" stroke="url(#accent)" stroke-opacity=".84" stroke-width="2"/>
+  <path d="M974 185L1028 216V267L974 298L920 267V216Z" fill="#141F38" stroke="#5E8FF3" stroke-opacity=".65"/>
+  <path d="M920 216L974 247L1028 216M974 247V298" stroke="#94A8FF" stroke-opacity=".65" fill="none"/>
+  <circle cx="974" cy="247" r="13" fill="#A9FF75" fill-opacity=".14" stroke="#B7FF70" stroke-width="2" class="pulse"/>
+  <circle cx="974" cy="247" r="4" fill="#B7FF70"/>
+</g>
+<g class="float-delay"><rect x="1092" y="140" width="94" height="53" rx="11" fill="#12182B" stroke="#3B75CE" stroke-opacity=".7"/><path d="M1106 171l10-7 10 5 11-14 10 4 12-9 12 5" fill="none" stroke="#69BCFF" stroke-width="2.2"/><circle cx="1160" cy="153" r="3" fill="#B9FF6D"/></g>
+<g class="pulse-delay"><circle cx="835" cy="312" r="9" fill="#10162B" stroke="#B7FF70" stroke-width="2"/><circle cx="835" cy="312" r="3" fill="#B7FF70"/><path d="M846 311h35" fill="none" stroke="#A9FF6D" stroke-width="1.5" stroke-opacity=".7"/></g>
+<text x="1048" y="373" class="mono" fill="#94A5C8" font-size="11" letter-spacing="1">E/CORE  •  01</text>
+
+</svg>

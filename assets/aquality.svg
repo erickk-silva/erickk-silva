@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="305" viewBox="0 0 1200 305" role="img" aria-label="AQUALITY — IoT water-quality monitoring">
+<title>AQUALITY — IoT water-quality monitoring</title><desc>AQUALITY, a React Native, TypeScript, ESP32, PHP and MySQL project for real-time water quality monitoring.</desc><defs>
+  <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#080A15"/>
+    <stop offset=".56" stop-color="#0C1022"/>
+    <stop offset="1" stop-color="#070B16"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#B088FF"/>
+    <stop offset=".43" stop-color="#668BFF"/>
+    <stop offset=".72" stop-color="#53BCFF"/>
+    <stop offset="1" stop-color="#BEFF65"/>
+  </linearGradient>
+  <linearGradient id="aqua" x1="0" y1="1" x2="1" y2="0">
+    <stop offset="0" stop-color="#4359FF"/>
+    <stop offset=".58" stop-color="#4AB6FF"/>
+    <stop offset="1" stop-color="#A8FBD6"/>
+  </linearGradient>
+  <linearGradient id="lime" x1="0" y1="1" x2="1" y2="0">
+    <stop offset="0" stop-color="#46CDB7"/>
+    <stop offset=".55" stop-color="#A2F975"/>
+    <stop offset="1" stop-color="#D1FF72"/>
+  </linearGradient>
+  <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#A780FF"/>
+    <stop offset=".55" stop-color="#6E7FFF"/>
+    <stop offset="1" stop-color="#469DFF"/>
+  </linearGradient>
+  <radialGradient id="purpleGlow"><stop stop-color="#7340D9" stop-opacity=".48"/><stop offset="1" stop-color="#7340D9" stop-opacity="0"/></radialGradient>
+  <radialGradient id="blueGlow"><stop stop-color="#2D7CFE" stop-opacity=".30"/><stop offset="1" stop-color="#2D7CFE" stop-opacity="0"/></radialGradient>
+  <radialGradient id="limeGlow"><stop stop-color="#9FE66D" stop-opacity=".22"/><stop offset="1" stop-color="#9FE66D" stop-opacity="0"/></radialGradient>
+  <pattern id="mesh" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#29334C" stroke-opacity=".4" stroke-width=".8"/></pattern>
+  <pattern id="micro" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".55" fill="#7992C9" fill-opacity=".24"/></pattern>
+</defs><style>
+  text{font-family:Inter,'Inter Display','Segoe UI',Arial,sans-serif}
+  .mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace}
+  .orbit{transform-origin:975px 232px;animation:spin 28s linear infinite}
+  .orbit-reverse{transform-origin:975px 232px;animation:spin 36s linear infinite reverse}
+  .float{animation:float 5s ease-in-out infinite}
+  .float-delay{animation:float 7s ease-in-out infinite reverse}
+  .pulse{animation:pulse 3.4s ease-in-out infinite}
+  .pulse-delay{animation:pulse 5s ease-in-out infinite reverse}
+  .flow{stroke-dasharray:10 11;animation:dash 5s linear infinite}
+  .scan{animation:scan 7s ease-in-out infinite}
+  .wave{animation:wave 6s ease-in-out infinite}
+  .fade-in{animation:fadein .9s ease-out both}
+  @keyframes spin {to{transform:rotate(360deg)}}
+  @keyframes float{0%,100%{transform:translateY(0px)}50%{transform:translateY(-9px)}}
+  @keyframes pulse{0%,100%{opacity:.48}50%{opacity:1}}
+  @keyframes dash{to{stroke-dashoffset:-126}}
+  @keyframes scan{0%,100%{transform:translateX(0px);opacity:.4}50%{transform:translateX(160px);opacity:.8}}
+  @keyframes wave{0%,100%{opacity:.46}50%{opacity:.95}}
+  @keyframes fadein{0%{opacity:0}100%{opacity:1}}
+  @media (prefers-reduced-motion:reduce){.orbit,.orbit-reverse,.float,.float-delay,.pulse,.pulse-delay,.flow,.scan,.wave,.fade-in{animation:none!important}}
+</style>
+<rect x="1" y="1" width="1198" height="303" rx="25" fill="url(#background)" stroke="#29314B" stroke-width="1.4"/>
+
+<circle cx="1008" cy="150" r="265" fill="url(#blueGlow)"/><circle cx="1118" cy="78" r="197" fill="url(#limeGlow)"/>
+<rect x="735" width="465" height="305" fill="url(#mesh)" opacity=".43"/>
+<path d="M55 62H1150" stroke="#29364B" stroke-width="1"/>
+<circle cx="61" cy="39" r="4.7" fill="#68B8FF" class="pulse"/>
+<text x="77" y="44" font-size="12" font-weight="800" fill="#99AACA" letter-spacing="2.1" >01 / FEATURED WORK</text><text x="1145" y="43" font-size="11" font-weight="750" fill="#70BFF9" letter-spacing="1.9" text-anchor="end">IOT / MOBILE / REAL-TIME</text>
+<text x="56" y="141" font-size="62" letter-spacing="-1.6" font-weight="810" fill="#F2F7FF">AQUALITY</text>
+<rect x="57" y="158" width="54" height="3" rx="1.5" fill="url(#aqua)"/>
+<text x="56" y="192" font-size="18" fill="#B0BED7">Water quality intelligence, from sensor to screen.</text>
+<rect x="56" y="216" width="133" height="31" rx="10" fill="#142944" stroke="#70B5FF" stroke-opacity=".30"/><text x="122.5" y="236.5" text-anchor="middle" font-size="12.5" font-weight="650" fill="#70B5FF">React Native</text><rect x="200" y="216" width="109" height="31" rx="10" fill="#1C1A37" stroke="#A996FF" stroke-opacity=".30"/><text x="254.5" y="236.5" text-anchor="middle" font-size="12.5" font-weight="650" fill="#A996FF">TypeScript</text><rect x="321" y="216" width="82" height="31" rx="10" fill="#1B2B23" stroke="#BFFB75" stroke-opacity=".30"/><text x="362.0" y="236.5" text-anchor="middle" font-size="12.5" font-weight="650" fill="#BFFB75">ESP32</text><rect x="415" y="216" width="126" height="31" rx="10" fill="#142944" stroke="#70B5FF" stroke-opacity=".30"/><text x="478.0" y="236.5" text-anchor="middle" font-size="12.5" font-weight="650" fill="#70B5FF">PHP + MySQL</text>
+<text x="58" y="276" fill="#9CD5FF" font-size="13.5" font-weight="700" letter-spacing="1.4">EXPLORE REPOSITORY</text>
+<path d="M224 270h26m-8-7 8 7-8 7" fill="none" stroke="#B4FF7D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<!-- Water intelligence / abstract sensor visual -->
+<ellipse cx="977" cy="205" rx="187" ry="49" fill="none" stroke="#4F96FF" stroke-opacity=".29" stroke-width="1.5"/>
+<ellipse cx="977" cy="204" rx="149" ry="33" fill="none" stroke="#85D4FF" stroke-opacity=".27" stroke-width="1.4"/>
+<path d="M788 206Q881 156 981 205T1169 206" stroke="#539FE9" stroke-opacity=".48" stroke-width="2" fill="none"/>
+<path d="M786 229Q878 182 978 230T1165 230" stroke="#7BC5FB" stroke-opacity=".2" stroke-width="1.3" fill="none"/>
+<g class="float">
+ <path d="M973 72L1057 118V214L973 260L889 214V118Z" fill="#101D31" stroke="url(#aqua)" stroke-width="2"/>
+ <path d="M973 72V164L889 214M973 164L1057 214M889 118L973 164L1057 118" stroke="#61BFFF" stroke-opacity=".8" fill="none" stroke-width="2"/>
+ <path d="M973 115l44 25v49l-44 24-44-24v-49z" fill="#142943" stroke="#B2FCDA" stroke-opacity=".7"/>
+ <path d="M929 140l44 25 44-25M973 165v48" stroke="#6EBDF6" stroke-opacity=".7" fill="none"/>
+ <circle cx="973" cy="164" r="12" fill="#58BFFF" fill-opacity=".24" stroke="#ACFCDA" stroke-opacity=".9"/>
+ <circle cx="973" cy="164" r="4.3" fill="#C5FF8A" class="pulse"/>
+</g>
+<g class="float-delay"><rect x="1073" y="77" rx="10" width="96" height="55" fill="#121B30" stroke="#437FBA"/><path d="M1086 109q11-23 21 0t22 0t25-2" stroke="#84CFFF" stroke-width="2.1" fill="none"/><circle cx="1150" cy="105" r="4" fill="#B6FF7E"/></g>
+<circle cx="832" cy="149" r="8" fill="#12243A" stroke="#82BFFF" stroke-width="2"/>
+<circle cx="832" cy="149" r="2.7" fill="#B0FF8B"/>
+<path d="M842 149h58" stroke="#63B7F7" stroke-opacity=".65" class="flow"/>
+<rect x="1067" y="234" width="104" height="37" rx="10" fill="#112836" stroke="#69C6BD" stroke-opacity=".6"/>
+<circle cx="1086" cy="252" r="4" fill="#B8FF80" class="pulse"/>
+<text x="1098" y="256" class="mono" fill="#B0F4D8" font-size="10.5">LIVE DATA</text>
+
+</svg>

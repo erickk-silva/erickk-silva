@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="228" viewBox="0 0 1200 228" role="img" aria-label="Let us build something meaningful">
+<title>Let us build something meaningful</title><desc>A closing invitation to discuss meaningful software engineering and product development.</desc><defs>
+  <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#080A15"/>
+    <stop offset=".56" stop-color="#0C1022"/>
+    <stop offset="1" stop-color="#070B16"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#B088FF"/>
+    <stop offset=".43" stop-color="#668BFF"/>
+    <stop offset=".72" stop-color="#53BCFF"/>
+    <stop offset="1" stop-color="#BEFF65"/>
+  </linearGradient>
+  <linearGradient id="aqua" x1="0" y1="1" x2="1" y2="0">
+    <stop offset="0" stop-color="#4359FF"/>
+    <stop offset=".58" stop-color="#4AB6FF"/>
+    <stop offset="1" stop-color="#A8FBD6"/>
+  </linearGradient>
+  <linearGradient id="lime" x1="0" y1="1" x2="1" y2="0">
+    <stop offset="0" stop-color="#46CDB7"/>
+    <stop offset=".55" stop-color="#A2F975"/>
+    <stop offset="1" stop-color="#D1FF72"/>
+  </linearGradient>
+  <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#A780FF"/>
+    <stop offset=".55" stop-color="#6E7FFF"/>
+    <stop offset="1" stop-color="#469DFF"/>
+  </linearGradient>
+  <radialGradient id="purpleGlow"><stop stop-color="#7340D9" stop-opacity=".48"/><stop offset="1" stop-color="#7340D9" stop-opacity="0"/></radialGradient>
+  <radialGradient id="blueGlow"><stop stop-color="#2D7CFE" stop-opacity=".30"/><stop offset="1" stop-color="#2D7CFE" stop-opacity="0"/></radialGradient>
+  <radialGradient id="limeGlow"><stop stop-color="#9FE66D" stop-opacity=".22"/><stop offset="1" stop-color="#9FE66D" stop-opacity="0"/></radialGradient>
+  <pattern id="mesh" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#29334C" stroke-opacity=".4" stroke-width=".8"/></pattern>
+  <pattern id="micro" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".55" fill="#7992C9" fill-opacity=".24"/></pattern>
+</defs><style>
+  text{font-family:Inter,'Inter Display','Segoe UI',Arial,sans-serif}
+  .mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace}
+  .orbit{transform-origin:975px 232px;animation:spin 28s linear infinite}
+  .orbit-reverse{transform-origin:975px 232px;animation:spin 36s linear infinite reverse}
+  .float{animation:float 5s ease-in-out infinite}
+  .float-delay{animation:float 7s ease-in-out infinite reverse}
+  .pulse{animation:pulse 3.4s ease-in-out infinite}
+  .pulse-delay{animation:pulse 5s ease-in-out infinite reverse}
+  .flow{stroke-dasharray:10 11;animation:dash 5s linear infinite}
+  .scan{animation:scan 7s ease-in-out infinite}
+  .wave{animation:wave 6s ease-in-out infinite}
+  .fade-in{animation:fadein .9s ease-out both}
+  @keyframes spin {to{transform:rotate(360deg)}}
+  @keyframes float{0%,100%{transform:translateY(0px)}50%{transform:translateY(-9px)}}
+  @keyframes pulse{0%,100%{opacity:.48}50%{opacity:1}}
+  @keyframes dash{to{stroke-dashoffset:-126}}
+  @keyframes scan{0%,100%{transform:translateX(0px);opacity:.4}50%{transform:translateX(160px);opacity:.8}}
+  @keyframes wave{0%,100%{opacity:.46}50%{opacity:.95}}
+  @keyframes fadein{0%{opacity:0}100%{opacity:1}}
+  @media (prefers-reduced-motion:reduce){.orbit,.orbit-reverse,.float,.float-delay,.pulse,.pulse-delay,.flow,.scan,.wave,.fade-in{animation:none!important}}
+</style>
+<rect x="1" y="1" width="1198" height="226" rx="25" fill="url(#background)" stroke="#29314B" stroke-width="1.4"/>
+
+<circle cx="1017" cy="82" r="280" fill="url(#purpleGlow)"/><circle cx="1119" cy="190" r="170" fill="url(#limeGlow)"/>
+<path d="M50 27h1100" stroke="#33405B"/>
+<text x="55" y="65" font-size="12" letter-spacing="2.7" fill="#B7FF72" font-weight="750">THE NEXT ITERATION</text>
+<text x="52" y="126" font-size="45" letter-spacing="-1.6" fill="#F5F7FF" font-weight="780">Let's build something meaningful.</text>
+<text x="54" y="161" font-size="15.5" fill="#A9B8D3">Good engineering starts with a better question. Let's exchange ideas.</text>
+<circle cx="1058" cy="120" r="63" fill="none" stroke="#A07DFE" stroke-opacity=".36" stroke-dasharray="3 9"/>
+<circle cx="1058" cy="120" r="44" fill="none" stroke="#6AA7FF" stroke-opacity=".5"/>
+<g class="pulse"><path d="M1036 123h43m-12-12 12 12-12 12" fill="none" stroke="#BEFF65" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="1129" y="208" text-anchor="end" fill="#7F93B6" font-size="10" letter-spacing="1.7" class="mono">DESIGNED TO STAY USEFUL</text>
+
+</svg>

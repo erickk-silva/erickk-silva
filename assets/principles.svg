@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="171" viewBox="0 0 1200 171" role="img" aria-label="Engineering mindset — Think, Execute, Verify">
+<title>Engineering mindset — Think, Execute, Verify</title><desc>Three engineering principles: architecture first, purposeful implementation, and quality through measurement.</desc><defs>
+  <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#080A15"/>
+    <stop offset=".56" stop-color="#0C1022"/>
+    <stop offset="1" stop-color="#070B16"/>
+  </linearGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#B088FF"/>
+    <stop offset=".43" stop-color="#668BFF"/>
+    <stop offset=".72" stop-color="#53BCFF"/>
+    <stop offset="1" stop-color="#BEFF65"/>
+  </linearGradient>
+  <linearGradient id="aqua" x1="0" y1="1" x2="1" y2="0">
+    <stop offset="0" stop-color="#4359FF"/>
+    <stop offset=".58" stop-color="#4AB6FF"/>
+    <stop offset="1" stop-color="#A8FBD6"/>
+  </linearGradient>
+  <linearGradient id="lime" x1="0" y1="1" x2="1" y2="0">
+    <stop offset="0" stop-color="#46CDB7"/>
+    <stop offset=".55" stop-color="#A2F975"/>
+    <stop offset="1" stop-color="#D1FF72"/>
+  </linearGradient>
+  <linearGradient id="purple" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#A780FF"/>
+    <stop offset=".55" stop-color="#6E7FFF"/>
+    <stop offset="1" stop-color="#469DFF"/>
+  </linearGradient>
+  <radialGradient id="purpleGlow"><stop stop-color="#7340D9" stop-opacity=".48"/><stop offset="1" stop-color="#7340D9" stop-opacity="0"/></radialGradient>
+  <radialGradient id="blueGlow"><stop stop-color="#2D7CFE" stop-opacity=".30"/><stop offset="1" stop-color="#2D7CFE" stop-opacity="0"/></radialGradient>
+  <radialGradient id="limeGlow"><stop stop-color="#9FE66D" stop-opacity=".22"/><stop offset="1" stop-color="#9FE66D" stop-opacity="0"/></radialGradient>
+  <pattern id="mesh" width="34" height="34" patternUnits="userSpaceOnUse"><path d="M34 0H0V34" fill="none" stroke="#29334C" stroke-opacity=".4" stroke-width=".8"/></pattern>
+  <pattern id="micro" width="8" height="8" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".55" fill="#7992C9" fill-opacity=".24"/></pattern>
+</defs><style>
+  text{font-family:Inter,'Inter Display','Segoe UI',Arial,sans-serif}
+  .mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace}
+  .orbit{transform-origin:975px 232px;animation:spin 28s linear infinite}
+  .orbit-reverse{transform-origin:975px 232px;animation:spin 36s linear infinite reverse}
+  .float{animation:float 5s ease-in-out infinite}
+  .float-delay{animation:float 7s ease-in-out infinite reverse}
+  .pulse{animation:pulse 3.4s ease-in-out infinite}
+  .pulse-delay{animation:pulse 5s ease-in-out infinite reverse}
+  .flow{stroke-dasharray:10 11;animation:dash 5s linear infinite}
+  .scan{animation:scan 7s ease-in-out infinite}
+  .wave{animation:wave 6s ease-in-out infinite}
+  .fade-in{animation:fadein .9s ease-out both}
+  @keyframes spin {to{transform:rotate(360deg)}}
+  @keyframes float{0%,100%{transform:translateY(0px)}50%{transform:translateY(-9px)}}
+  @keyframes pulse{0%,100%{opacity:.48}50%{opacity:1}}
+  @keyframes dash{to{stroke-dashoffset:-126}}
+  @keyframes scan{0%,100%{transform:translateX(0px);opacity:.4}50%{transform:translateX(160px);opacity:.8}}
+  @keyframes wave{0%,100%{opacity:.46}50%{opacity:.95}}
+  @keyframes fadein{0%{opacity:0}100%{opacity:1}}
+  @media (prefers-reduced-motion:reduce){.orbit,.orbit-reverse,.float,.float-delay,.pulse,.pulse-delay,.flow,.scan,.wave,.fade-in{animation:none!important}}
+</style>
+<rect x="1" y="1" width="1198" height="169" rx="25" fill="url(#background)" stroke="#29314B" stroke-width="1.4"/>
+
+<rect x="0" y="0" width="1200" height="171" rx="24" fill="url(#micro)" opacity=".25"/>
+<line x1="401" y1="32" x2="401" y2="142" stroke="#2A344E"/>
+<line x1="799" y1="32" x2="799" y2="142" stroke="#2A344E"/>
+<circle cx="66" cy="56" r="15" stroke="#B28DFF" stroke-opacity=".75" fill="#A581FF" fill-opacity=".09"/>
+<path d="M59 56h14M66 49v14" stroke="#B68AFF" stroke-width="2"/>
+<text x="96" y="53" font-size="11" letter-spacing="2" font-weight="800" fill="#A58AFF">01 / THINK</text>
+<text x="58" y="99" font-size="24" font-weight="730" fill="#EEF2FF">Architecture first.</text>
+<text x="58" y="128" font-size="14.4" fill="#9EACC9">Designing around constraints and scale.</text>
+<circle cx="467" cy="56" r="15" stroke="#64A7FF" stroke-opacity=".75" fill="#64A7FF" fill-opacity=".09"/>
+<path d="M459 56l5 5 10-11" stroke="#78B5FF" stroke-width="2" fill="none" stroke-linecap="round"/>
+<text x="496" y="53" font-size="11" letter-spacing="2" font-weight="800" fill="#73B7FF">02 / EXECUTE</text>
+<text x="457" y="99" font-size="24" font-weight="730" fill="#EEF2FF">Build with intent.</text>
+<text x="457" y="128" font-size="14.4" fill="#9EACC9">Clean interfaces, useful integrations.</text>
+<circle cx="866" cy="56" r="15" stroke="#B9FF72" stroke-opacity=".75" fill="#B9FF72" fill-opacity=".09" class="pulse"/>
+<path d="M859 59l5-5 5 4 5-9" stroke="#C3FF7A" fill="none" stroke-width="2" stroke-linecap="round"/>
+<text x="894" y="53" font-size="11" letter-spacing="2" font-weight="800" fill="#C1FF78">03 / VERIFY</text>
+<text x="855" y="99" font-size="24" font-weight="730" fill="#EEF2FF">Measure what ships.</text>
+<text x="855" y="128" font-size="14.4" fill="#9EACC9">Tests, feedback and better iterations.</text>
+
+</svg>
