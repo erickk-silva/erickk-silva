@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="590" viewBox="0 0 1200 590" role="img" aria-label="Engineering toolkit: four vertical sculpted pillars for product, backend, applied AI and delivery">
+<title>Engineering toolkit — four disciplines, one engineering practice</title>
+<desc>Isometric architectural columns for product interfaces, backend services, AI and vision, and delivery. Four vertically separated engineering disciplines, animated light traces, purple, blue, lime and teal. Each pillar lists grounded technology experience.</desc>
+<defs>
+<linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#090C18"/><stop offset=".58" stop-color="#0B1223"/><stop offset="1" stop-color="#070B16"/></linearGradient>
+<linearGradient id="headline" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#B9A5FF"/><stop offset=".45" stop-color="#7AAEFF"/><stop offset="1" stop-color="#C8FF7A"/></linearGradient>
+<pattern id="calibration" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" stroke="#607090" stroke-width=".7" stroke-opacity=".14" fill="none"/></pattern>
+<linearGradient id="silhouette" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FFFFFF" stop-opacity=".08"/><stop offset=".44" stop-color="#FFFFFF" stop-opacity="0"/><stop offset="1" stop-color="#FFFFFF" stop-opacity=".02"/></linearGradient>
+<filter id="shadow" x="-25%" y="-20%" width="150%" height="160%"><feGaussianBlur stdDeviation="15"/></filter>
+<filter id="soft" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="6"/></filter>
+</defs>
+<style>
+text{font-family:'Inter','Segoe UI',Arial,sans-serif}
+.mono{font-family:'SFMono-Regular',Consolas,'Liberation Mono',monospace}
+.light{animation:scan 9s cubic-bezier(.43,.07,.57,.94) infinite}
+.pulse{animation:pulse 3.6s ease-in-out infinite}
+.trace{animation:trace 8s linear infinite}
+.float{animation:float 7s ease-in-out infinite}
+@keyframes scan{0%,11%{transform:translateY(-190px);opacity:0}19%{opacity:.8}66%{opacity:.55}76%,100%{transform:translateY(370px);opacity:0}}
+@keyframes pulse{0%,100%{opacity:.4}50%{opacity:1}}
+@keyframes trace{to{stroke-dashoffset:-160}}
+@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-4px)}}
+@media(prefers-reduced-motion:reduce){.light,.pulse,.trace,.float{animation:none!important}}
+</style>
+<rect x="1" y="1" width="1198" height="588" rx="18" fill="url(#canvas)" stroke="#2B3650" stroke-width="1.5"/>
+<rect x="2" y="2" width="1196" height="586" rx="18" fill="url(#calibration)" opacity=".5"/>
+<path d="M45 125H1164" stroke="#2C3954" stroke-width="1"/>
+<text x="46" y="47" fill="#C3D1E4" font-size="13" font-weight="730" letter-spacing="2.4" class="mono">ENGINEERING AT DIFFERENT SCALES</text>
+<text x="44" y="105" fill="#F5F7FF" font-size="46" font-weight="760" letter-spacing="-1.6">From interface to infrastructure<tspan fill="#C6FF77">.</tspan></text>
+<path d="M1032 30h126" stroke="url(#headline)" stroke-width="2.5" stroke-linecap="square"/>
+<text x="1156" y="54" text-anchor="end" fill="#8EA0BD" font-size="12" class="mono" letter-spacing="1.2">04 / SPECIALTIES</text>
+<g opacity=".6"><path d="M30 558H1170" stroke="#2F3A53" stroke-width="1"/><path d="M30 567H1170" stroke="#2F3A53" stroke-width=".7" stroke-dasharray="2 10"/></g>
+<g><polygon points="61,160 314,160 329,532 61,557" fill="#00060D" opacity=".63" filter="url(#shadow)"/></g>
+<defs><linearGradient id="col0" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#272042"/><stop offset=".32" stop-color="#141C32"/><stop offset="1" stop-color="#13172A"/></linearGradient>
+<linearGradient id="sweep0" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#B3A0FF" stop-opacity="0"/><stop offset=".5" stop-color="#B3A0FF" stop-opacity=".24"/><stop offset="1" stop-color="#B3A0FF" stop-opacity="0"/></linearGradient>
+<clipPath id="clip0"><rect x="45" y="178" width="252" height="364"/></clipPath></defs>
+<polygon points="45,178 63,161 312,161 297,178" fill="#5E4C9A" fill-opacity=".43" stroke="#B3A0FF" stroke-opacity=".65" stroke-width="1"/>
+<polygon points="297,178 312,161 312,526 297,542" fill="#5E4C9A" fill-opacity=".40" stroke="#B3A0FF" stroke-opacity=".28" stroke-width="1"/>
+<rect x="45" y="178" width="252" height="364" fill="url(#col0)" stroke="#B3A0FF" stroke-opacity=".28" stroke-width="1.3"/>
+<rect x="45" y="178" width="252" height="364" fill="url(#silhouette)" opacity=".36"/>
+<path d="M45 178V542 M54 179V541" stroke="#B3A0FF" stroke-opacity=".7" stroke-width="2.1"/>
+<g clip-path="url(#clip0)"><rect x="46" y="179" width="251" height="363" fill="url(#calibration)" opacity=".5"/>
+<rect x="57" y="179" width="232" height="116" fill="url(#sweep0)" class="light" style="animation-delay:0s"/>
+<path d="M63 352H277" stroke="#B3A0FF" stroke-opacity=".19"/>
+<path d="M260 192v160" stroke="#B3A0FF" stroke-opacity=".18" stroke-dasharray="4 9" class="trace"/>
+</g>
+<text x="69" y="242" fill="#B3A0FF" font-size="49" font-weight="700" letter-spacing="-2" opacity=".85" class="mono">01</text>
+<g fill="none" stroke="#B3A0FF" opacity=".73" stroke-width="1.65"><rect x="237" y="235" width="39" height="35"/><path d="M237 245h39 M249 235v35"/><circle cx="244" cy="240" r="1.6" fill="#B3A0FF"/></g>
+<text x="69" y="283" font-size="13.2" font-weight="720" fill="#B3A0FF" letter-spacing="1.2" class="mono">PRODUCT  /  MOBILE</text>
+<text x="69" y="331" font-size="30.5" font-weight="740" letter-spacing="-.8" fill="#F3F6FF">Interfaces</text>
+<path d="M69 379h9" stroke="#B3A0FF" stroke-width="2" opacity=".8"/>
+<text x="88" y="385" font-size="18.6" font-weight="540" fill="#D8E3F6">TypeScript  /  React</text>
+<path d="M69 413h9" stroke="#B3A0FF" stroke-width="2" opacity=".8"/>
+<text x="88" y="419" font-size="18.6" font-weight="540" fill="#D8E3F6">React Native</text>
+<path d="M69 447h9" stroke="#B3A0FF" stroke-width="2" opacity=".8"/>
+<text x="88" y="453" font-size="18.6" font-weight="540" fill="#D8E3F6">Next.js  /  Inertia</text>
+<path d="M69 481h9" stroke="#B3A0FF" stroke-width="2" opacity=".8"/>
+<text x="88" y="487" font-size="18.6" font-weight="540" fill="#D8E3F6">Kotlin  /  Compose</text>
+<path d="M68 493H274" stroke="#B3A0FF" stroke-opacity=".32" stroke-width=".9"/>
+<text x="69" y="519" font-size="10.8" font-weight="690" fill="#94A6C2" letter-spacing=".8" class="mono">BUILDING THE EXPERIENCE</text>
+<rect x="46" y="537" width="250" height="4" fill="#B3A0FF" fill-opacity=".70"/>
+<circle cx="279" cy="517" r="3.2" fill="#B3A0FF" class="pulse" style="animation-delay:0s"/>
+<g><polygon points="349,145 602,145 617,532 349,557" fill="#00060D" opacity=".63" filter="url(#shadow)"/></g>
+<defs><linearGradient id="col1" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#152F4F"/><stop offset=".32" stop-color="#141C32"/><stop offset="1" stop-color="#101A30"/></linearGradient>
+<linearGradient id="sweep1" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#70B9FF" stop-opacity="0"/><stop offset=".5" stop-color="#70B9FF" stop-opacity=".24"/><stop offset="1" stop-color="#70B9FF" stop-opacity="0"/></linearGradient>
+<clipPath id="clip1"><rect x="333" y="163" width="252" height="379"/></clipPath></defs>
+<polygon points="333,163 351,146 600,146 585,163" fill="#42688B" fill-opacity=".43" stroke="#70B9FF" stroke-opacity=".65" stroke-width="1"/>
+<polygon points="585,163 600,146 600,526 585,542" fill="#42688B" fill-opacity=".40" stroke="#70B9FF" stroke-opacity=".28" stroke-width="1"/>
+<rect x="333" y="163" width="252" height="379" fill="url(#col1)" stroke="#70B9FF" stroke-opacity=".28" stroke-width="1.3"/>
+<rect x="333" y="163" width="252" height="379" fill="url(#silhouette)" opacity=".36"/>
+<path d="M333 163V542 M342 164V541" stroke="#70B9FF" stroke-opacity=".7" stroke-width="2.1"/>
+<g clip-path="url(#clip1)"><rect x="334" y="164" width="251" height="378" fill="url(#calibration)" opacity=".5"/>
+<rect x="345" y="164" width="232" height="116" fill="url(#sweep1)" class="light" style="animation-delay:-2.3s"/>
+<path d="M351 337H565" stroke="#70B9FF" stroke-opacity=".19"/>
+<path d="M548 177v160" stroke="#70B9FF" stroke-opacity=".18" stroke-dasharray="4 9" class="trace"/>
+</g>
+<text x="357" y="227" fill="#70B9FF" font-size="49" font-weight="700" letter-spacing="-2" opacity=".85" class="mono">02</text>
+<g fill="none" stroke="#70B9FF" opacity=".7" stroke-width="1.7"><path d="M536 222L560 238L536 256L511 238Z M536 222V256 M511 238L560 238"/><circle cx="536" cy="222" r="3" fill="#70B9FF"/></g>
+<text x="357" y="268" font-size="13.2" font-weight="720" fill="#70B9FF" letter-spacing="1.2" class="mono">BACKEND  /  DATA</text>
+<text x="357" y="316" font-size="30.5" font-weight="740" letter-spacing="-.8" fill="#F3F6FF">Services</text>
+<path d="M357 379h9" stroke="#70B9FF" stroke-width="2" opacity=".8"/>
+<text x="376" y="385" font-size="18.6" font-weight="540" fill="#D8E3F6">PHP  /  Laravel</text>
+<path d="M357 413h9" stroke="#70B9FF" stroke-width="2" opacity=".8"/>
+<text x="376" y="419" font-size="18.6" font-weight="540" fill="#D8E3F6">Node.js  /  NestJS</text>
+<path d="M357 447h9" stroke="#70B9FF" stroke-width="2" opacity=".8"/>
+<text x="376" y="453" font-size="18.6" font-weight="540" fill="#D8E3F6">SQL Server  /  MySQL</text>
+<path d="M357 481h9" stroke="#70B9FF" stroke-width="2" opacity=".8"/>
+<text x="376" y="487" font-size="18.6" font-weight="540" fill="#D8E3F6">Redis  /  REST APIs</text>
+<path d="M356 493H562" stroke="#70B9FF" stroke-opacity=".32" stroke-width=".9"/>
+<text x="357" y="519" font-size="10.8" font-weight="690" fill="#94A6C2" letter-spacing=".8" class="mono">DESIGNING THE CONTRACTS</text>
+<rect x="334" y="537" width="250" height="4" fill="#70B9FF" fill-opacity=".70"/>
+<circle cx="567" cy="517" r="3.2" fill="#70B9FF" class="pulse" style="animation-delay:-2.3s"/>
+<g><polygon points="637,152 890,152 905,532 637,557" fill="#00060D" opacity=".63" filter="url(#shadow)"/></g>
+<defs><linearGradient id="col2" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#23372F"/><stop offset=".32" stop-color="#141C32"/><stop offset="1" stop-color="#111E20"/></linearGradient>
+<linearGradient id="sweep2" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#C6FF77" stop-opacity="0"/><stop offset=".5" stop-color="#C6FF77" stop-opacity=".24"/><stop offset="1" stop-color="#C6FF77" stop-opacity="0"/></linearGradient>
+<clipPath id="clip2"><rect x="621" y="170" width="252" height="372"/></clipPath></defs>
+<polygon points="621,170 639,153 888,153 873,170" fill="#526A4B" fill-opacity=".43" stroke="#C6FF77" stroke-opacity=".65" stroke-width="1"/>
+<polygon points="873,170 888,153 888,526 873,542" fill="#526A4B" fill-opacity=".40" stroke="#C6FF77" stroke-opacity=".28" stroke-width="1"/>
+<rect x="621" y="170" width="252" height="372" fill="url(#col2)" stroke="#C6FF77" stroke-opacity=".28" stroke-width="1.3"/>
+<rect x="621" y="170" width="252" height="372" fill="url(#silhouette)" opacity=".36"/>
+<path d="M621 170V542 M630 171V541" stroke="#C6FF77" stroke-opacity=".7" stroke-width="2.1"/>
+<g clip-path="url(#clip2)"><rect x="622" y="171" width="251" height="371" fill="url(#calibration)" opacity=".5"/>
+<rect x="633" y="171" width="232" height="116" fill="url(#sweep2)" class="light" style="animation-delay:-4.2s"/>
+<path d="M639 344H853" stroke="#C6FF77" stroke-opacity=".19"/>
+<path d="M836 184v160" stroke="#C6FF77" stroke-opacity=".18" stroke-dasharray="4 9" class="trace"/>
+</g>
+<text x="645" y="234" fill="#C6FF77" font-size="49" font-weight="700" letter-spacing="-2" opacity=".85" class="mono">03</text>
+<g stroke="#C6FF77" stroke-width="1.5" opacity=".8"><path d="M801 232L825 247L850 230 M801 263L825 247L849 264" fill="none"/><circle cx="801" cy="232" r="3" fill="#C6FF77"/><circle cx="801" cy="263" r="3" fill="#C6FF77"/><circle cx="825" cy="247" r="6" fill="#162D2D"/><circle cx="850" cy="230" r="3" fill="#C6FF77"/><circle cx="849" cy="264" r="3" fill="#C6FF77"/></g>
+<text x="645" y="275" font-size="13.2" font-weight="720" fill="#C6FF77" letter-spacing="1.2" class="mono">APPLIED AI  /  VISION</text>
+<text x="645" y="323" font-size="30.5" font-weight="740" letter-spacing="-.8" fill="#F3F6FF">Intelligence</text>
+<path d="M645 379h9" stroke="#C6FF77" stroke-width="2" opacity=".8"/>
+<text x="664" y="385" font-size="18.6" font-weight="540" fill="#D8E3F6">Python  /  OpenCV</text>
+<path d="M645 413h9" stroke="#C6FF77" stroke-width="2" opacity=".8"/>
+<text x="664" y="419" font-size="18.6" font-weight="540" fill="#D8E3F6">MediaPipe</text>
+<path d="M645 447h9" stroke="#C6FF77" stroke-width="2" opacity=".8"/>
+<text x="664" y="453" font-size="18.6" font-weight="540" fill="#D8E3F6">CNN experiments</text>
+<path d="M645 481h9" stroke="#C6FF77" stroke-width="2" opacity=".8"/>
+<text x="664" y="487" font-size="18.6" font-weight="540" fill="#D8E3F6">Fine-tuning  ·  basic</text>
+<path d="M644 493H850" stroke="#C6FF77" stroke-opacity=".32" stroke-width=".9"/>
+<text x="645" y="519" font-size="10.8" font-weight="690" fill="#94A6C2" letter-spacing=".8" class="mono">TRAINING AND INTERPRETING</text>
+<rect x="622" y="537" width="250" height="4" fill="#C6FF77" fill-opacity=".70"/>
+<circle cx="855" cy="517" r="3.2" fill="#C6FF77" class="pulse" style="animation-delay:-4.2s"/>
+<g><polygon points="925,165 1178,165 1193,532 925,557" fill="#00060D" opacity=".63" filter="url(#shadow)"/></g>
+<defs><linearGradient id="col3" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#163837"/><stop offset=".32" stop-color="#141C32"/><stop offset="1" stop-color="#0E2029"/></linearGradient>
+<linearGradient id="sweep3" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#67E4D5" stop-opacity="0"/><stop offset=".5" stop-color="#67E4D5" stop-opacity=".24"/><stop offset="1" stop-color="#67E4D5" stop-opacity="0"/></linearGradient>
+<clipPath id="clip3"><rect x="909" y="183" width="252" height="359"/></clipPath></defs>
+<polygon points="909,183 927,166 1176,166 1161,183" fill="#447772" fill-opacity=".43" stroke="#67E4D5" stroke-opacity=".65" stroke-width="1"/>
+<polygon points="1161,183 1176,166 1176,526 1161,542" fill="#447772" fill-opacity=".40" stroke="#67E4D5" stroke-opacity=".28" stroke-width="1"/>
+<rect x="909" y="183" width="252" height="359" fill="url(#col3)" stroke="#67E4D5" stroke-opacity=".28" stroke-width="1.3"/>
+<rect x="909" y="183" width="252" height="359" fill="url(#silhouette)" opacity=".36"/>
+<path d="M909 183V542 M918 184V541" stroke="#67E4D5" stroke-opacity=".7" stroke-width="2.1"/>
+<g clip-path="url(#clip3)"><rect x="910" y="184" width="251" height="358" fill="url(#calibration)" opacity=".5"/>
+<rect x="921" y="184" width="232" height="116" fill="url(#sweep3)" class="light" style="animation-delay:-1.4s"/>
+<path d="M927 357H1141" stroke="#67E4D5" stroke-opacity=".19"/>
+<path d="M1124 197v160" stroke="#67E4D5" stroke-opacity=".18" stroke-dasharray="4 9" class="trace"/>
+</g>
+<text x="933" y="247" fill="#67E4D5" font-size="49" font-weight="700" letter-spacing="-2" opacity=".85" class="mono">04</text>
+<g fill="none" stroke="#67E4D5" stroke-width="1.75" opacity=".8"><path d="M1086 272l12-13 12 8 12-24 15 8"/><path d="M1086 281h53" stroke-opacity=".35"/><circle cx="1122" cy="243" r="3" fill="#67E4D5"/></g>
+<text x="933" y="288" font-size="13.2" font-weight="720" fill="#67E4D5" letter-spacing="1.2" class="mono">SYSTEMS  /  QUALITY</text>
+<text x="933" y="336" font-size="30.5" font-weight="740" letter-spacing="-.8" fill="#F3F6FF">Delivery</text>
+<path d="M933 379h9" stroke="#67E4D5" stroke-width="2" opacity=".8"/>
+<text x="952" y="385" font-size="18.6" font-weight="540" fill="#D8E3F6">Docker  /  Linux</text>
+<path d="M933 413h9" stroke="#67E4D5" stroke-width="2" opacity=".8"/>
+<text x="952" y="419" font-size="18.6" font-weight="540" fill="#D8E3F6">GitHub Actions</text>
+<path d="M933 447h9" stroke="#67E4D5" stroke-width="2" opacity=".8"/>
+<text x="952" y="453" font-size="18.6" font-weight="540" fill="#D8E3F6">PHPUnit  /  Jest</text>
+<path d="M933 481h9" stroke="#67E4D5" stroke-width="2" opacity=".8"/>
+<text x="952" y="487" font-size="18.6" font-weight="540" fill="#D8E3F6">ESP32  /  C++</text>
+<path d="M932 493H1138" stroke="#67E4D5" stroke-opacity=".32" stroke-width=".9"/>
+<text x="933" y="519" font-size="10.8" font-weight="690" fill="#94A6C2" letter-spacing=".8" class="mono">TESTING IN THE REAL WORLD</text>
+<rect x="910" y="537" width="250" height="4" fill="#67E4D5" fill-opacity=".70"/>
+<circle cx="1143" cy="517" r="3.2" fill="#67E4D5" class="pulse" style="animation-delay:-1.4s"/>
+<path d="M45 565H1162" stroke="#2D3B56" stroke-width="1"/><text x="46" y="581" font-size="10.8" class="mono" fill="#8493B0" letter-spacing=".8">01 — CODE  /  02 — SYSTEMS  /  03 — MODELS  /  04 — DELIVERY</text>
+</svg>

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="1055" viewBox="0 0 720 1055" role="img" aria-label="Four engineering disciplines optimized for small displays">
+<title>Engineering at different scales — mobile</title>
+<desc>Readable small-screen alternative with four vertically arranged areas for interfaces, services, intelligence and delivery.</desc>
+<defs>
+<linearGradient id="mbg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080C19"/><stop offset="1" stop-color="#0D1524"/></linearGradient>
+<linearGradient id="mfade" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#FFFFFF" stop-opacity=".035"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+<pattern id="mgrid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" stroke="#67718B" stroke-width=".7" stroke-opacity=".13" fill="none"/></pattern>
+</defs><style>text{font-family:Inter,'Segoe UI',Arial,sans-serif}.mono{font-family:Consolas,'Liberation Mono',monospace}.sweep{animation:none}@keyframes light{0%,100%{transform:translateX(-240px);opacity:0}30%{opacity:.4}65%{opacity:.6}85%{transform:translateX(620px);opacity:0}}@media(prefers-reduced-motion:reduce){.sweep{animation:none}}</style>
+<rect x="1" y="1" width="718" height="1053" rx="20" fill="url(#mbg)" stroke="#293450" stroke-width="2"/><rect x="1" y="1" width="718" height="1053" rx="20" fill="url(#mgrid)"/>
+<text x="36" y="52" font-size="20" font-weight="730" letter-spacing="2" fill="#B5C4DE" class="mono">ENGINEERING / 04 DISCIPLINES</text>
+<text x="36" y="103" fill="#F5F7FD" font-size="41" font-weight="770">From UI to infrastructure<tspan fill="#C6FF77">.</tspan></text>
+<line x1="36" y1="129" x2="684" y2="129" stroke="#394662"/>
+<rect x="36" y="150" width="648" height="202" fill="url(#mfade)"/>
+<path d="M36 150V352" stroke="#B3A0FF" stroke-width="5"/><path d="M36 150H684" stroke="#B3A0FF" stroke-width="2" stroke-opacity=".7"/>
+<text x="61" y="189" class="mono" font-size="31" fill="#B3A0FF" font-weight="700">01</text>
+<text x="141" y="189" font-size="29" fill="#F4F7FF" font-weight="730">Interfaces</text>
+<text x="142" y="215" class="mono" font-size="16" fill="#B3A0FF" letter-spacing="1.0">PRODUCT  /  MOBILE</text>
+<path d="M61 255h10" stroke="#B3A0FF" stroke-width="3"/>
+<text x="80" y="261" font-size="22" fill="#DBE6F7">TypeScript  /  React</text>
+<path d="M374 255h10" stroke="#B3A0FF" stroke-width="3"/>
+<text x="393" y="261" font-size="22" fill="#DBE6F7">React Native</text>
+<path d="M61 305h10" stroke="#B3A0FF" stroke-width="3"/>
+<text x="80" y="311" font-size="22" fill="#DBE6F7">Next.js  /  Inertia</text>
+<path d="M374 305h10" stroke="#B3A0FF" stroke-width="3"/>
+<text x="393" y="311" font-size="22" fill="#DBE6F7">Kotlin  /  Compose</text>
+<path d="M61 334H660" stroke="#3E4960" stroke-width="1"/>
+<text x="61" y="347" font-size="13" class="mono" fill="#96A8C4" letter-spacing="1">BUILDING THE EXPERIENCE</text>
+<rect x="36" y="372" width="648" height="202" fill="url(#mfade)"/>
+<path d="M36 372V574" stroke="#70B9FF" stroke-width="5"/><path d="M36 372H684" stroke="#70B9FF" stroke-width="2" stroke-opacity=".7"/>
+<text x="61" y="411" class="mono" font-size="31" fill="#70B9FF" font-weight="700">02</text>
+<text x="141" y="411" font-size="29" fill="#F4F7FF" font-weight="730">Services</text>
+<text x="142" y="437" class="mono" font-size="16" fill="#70B9FF" letter-spacing="1.0">BACKEND  /  DATA</text>
+<path d="M61 477h10" stroke="#70B9FF" stroke-width="3"/>
+<text x="80" y="483" font-size="22" fill="#DBE6F7">PHP  /  Laravel</text>
+<path d="M374 477h10" stroke="#70B9FF" stroke-width="3"/>
+<text x="393" y="483" font-size="22" fill="#DBE6F7">Node.js  /  NestJS</text>
+<path d="M61 527h10" stroke="#70B9FF" stroke-width="3"/>
+<text x="80" y="533" font-size="22" fill="#DBE6F7">SQL Server  /  MySQL</text>
+<path d="M374 527h10" stroke="#70B9FF" stroke-width="3"/>
+<text x="393" y="533" font-size="22" fill="#DBE6F7">Redis  /  REST APIs</text>
+<path d="M61 556H660" stroke="#3E4960" stroke-width="1"/>
+<text x="61" y="569" font-size="13" class="mono" fill="#96A8C4" letter-spacing="1">DESIGNING THE CONTRACTS</text>
+<rect x="36" y="594" width="648" height="202" fill="url(#mfade)"/>
+<path d="M36 594V796" stroke="#C6FF77" stroke-width="5"/><path d="M36 594H684" stroke="#C6FF77" stroke-width="2" stroke-opacity=".7"/>
+<text x="61" y="633" class="mono" font-size="31" fill="#C6FF77" font-weight="700">03</text>
+<text x="141" y="633" font-size="29" fill="#F4F7FF" font-weight="730">Intelligence</text>
+<text x="142" y="659" class="mono" font-size="16" fill="#C6FF77" letter-spacing="1.0">APPLIED AI  /  VISION</text>
+<path d="M61 699h10" stroke="#C6FF77" stroke-width="3"/>
+<text x="80" y="705" font-size="22" fill="#DBE6F7">Python  /  OpenCV</text>
+<path d="M374 699h10" stroke="#C6FF77" stroke-width="3"/>
+<text x="393" y="705" font-size="22" fill="#DBE6F7">MediaPipe</text>
+<path d="M61 749h10" stroke="#C6FF77" stroke-width="3"/>
+<text x="80" y="755" font-size="22" fill="#DBE6F7">CNN experiments</text>
+<path d="M374 749h10" stroke="#C6FF77" stroke-width="3"/>
+<text x="393" y="755" font-size="22" fill="#DBE6F7">Fine-tuning  ·  basic</text>
+<path d="M61 778H660" stroke="#3E4960" stroke-width="1"/>
+<text x="61" y="791" font-size="13" class="mono" fill="#96A8C4" letter-spacing="1">TRAINING AND INTERPRETING</text>
+<rect x="36" y="816" width="648" height="202" fill="url(#mfade)"/>
+<path d="M36 816V1018" stroke="#67E4D5" stroke-width="5"/><path d="M36 816H684" stroke="#67E4D5" stroke-width="2" stroke-opacity=".7"/>
+<text x="61" y="855" class="mono" font-size="31" fill="#67E4D5" font-weight="700">04</text>
+<text x="141" y="855" font-size="29" fill="#F4F7FF" font-weight="730">Delivery</text>
+<text x="142" y="881" class="mono" font-size="16" fill="#67E4D5" letter-spacing="1.0">SYSTEMS  /  QUALITY</text>
+<path d="M61 921h10" stroke="#67E4D5" stroke-width="3"/>
+<text x="80" y="927" font-size="22" fill="#DBE6F7">Docker  /  Linux</text>
+<path d="M374 921h10" stroke="#67E4D5" stroke-width="3"/>
+<text x="393" y="927" font-size="22" fill="#DBE6F7">GitHub Actions</text>
+<path d="M61 971h10" stroke="#67E4D5" stroke-width="3"/>
+<text x="80" y="977" font-size="22" fill="#DBE6F7">PHPUnit  /  Jest</text>
+<path d="M374 971h10" stroke="#67E4D5" stroke-width="3"/>
+<text x="393" y="977" font-size="22" fill="#DBE6F7">ESP32  /  C++</text>
+<path d="M61 1000H660" stroke="#3E4960" stroke-width="1"/>
+<text x="61" y="1013" font-size="13" class="mono" fill="#96A8C4" letter-spacing="1">TESTING IN THE REAL WORLD</text>
+</svg>
