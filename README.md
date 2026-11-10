@@ -12,6 +12,12 @@
 ![](https://github-readme-streak-stats.herokuapp.com/?user=erickk-silva&theme=midnight-purple&hide_border=true)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=erickk-silva&theme=midnight-purple&hide_border=true&include_all_commits=true&count_private=false&layout=compact)
 
+### 🌙 3D Contribution Graph
+
+<p align="center">
+  <img src="./profile-3d-contrib/profile-night-view.svg" alt="Gráfico 3D de contribuições — Night View" width="100%">
+</p>
+
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
 
